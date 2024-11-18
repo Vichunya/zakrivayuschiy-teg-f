@@ -6,10 +6,15 @@
     font-display: swap;     /* это время загрузки ? Его нужно писать ? */
   }
   
-  @font-face {
-    font-family: "IBM Plex Mono";
-    src: url(./IBMPlexMono-Bold.woff) format("woff");
-    font-weight: bold;
+  @font-face {                               
+    font-family: "Inter"; 
     font-display: swap;
+    src: local(Inter), url("../fonts/Inter-Variable.woff2" format("woff2 supports variations"));
+    url("../fonts/Inter-Variable.woff2") format('woff2-variations');
   }
   
+
+  /*в задании указано:
+  Подключая вариативный Inter, перечислите только те веса шрифта, которые используются в макете, в виде диапазона. Подсказка — проверяйте две цветовые схемы сайта, веса отличаются.
+  Но в теории подключения такого вроде не было, про диапазон
+  */
