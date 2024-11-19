@@ -2,40 +2,21 @@
 @font-face {
     font-family: "PressStart2P";
     src: url(./PressStart2P-Regular.woff) format("woff");
-    font-weight: normal;    /* regular в фигме ? или bold */
+    font-weight: normal;    
     font-display: swap;     /* это время загрузки ? Его нужно писать ? */
   }
   
   @font-face {                               
     font-family: "Inter"; 
     font-display: swap;
-    src: local(Inter), url("../fonts/Inter-Variable.woff2" format("woff2 supports variations"));
+    font-weight: 400 785;
+    src: local(Inter), url("../fonts/Inter-Variable.woff2") format("woff2 supports variations"), 
     url("../fonts/Inter-Variable.woff2") format('woff2-variations');
   }
   
 
-  /*в задании указано:
-  Подключая вариативный Inter, перечислите только те веса шрифта, которые используются в макете, в виде диапазона. Подсказка — проверяйте две цветовые схемы сайта, веса отличаются.
-  Но в теории подключения такого вроде не было, про диапазон
-  */
 
 
-  /*font-weight: [минимальное значение] [максимальное значение];
-    font-stretch: [минимальное значение]% [максимальное значение]%;
-}*/ 
-
-
-/*Вместо прямого перечисления лучше использовать метод прогрессивного улучшения через директиву @supports:
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-    body {
-        font-family: 'Roboto-Flex-Variable', sans-serif;
-    }
-} */
 
 
 /*ИЗ ТЕОРИИ: К CSS-переменным применяется каскад. Когда вы переопределяете значение переменной, оно попадает в свойство font-variation-settings с новым значением. 
