@@ -23,10 +23,11 @@
 
 
 /* градиенты
-background-image: repeating-linear-gradient(угол 90? #d3d3d3, transparent 2px)  - одна полоска 2px слева направо #d3d3d3 и одна - transparent в светлой теме 
-background-image: repeating-linear-gradient() - одна полоска #000 и одна - transparent в темной теме 
-background-image: linear-gradient(#E7E7E7, #1A1A1A); второй градиент светлая тема цвета, сверху вниз
-background-image: linear-gradient(#007f0c, #004306); второй градинет темная тема цвета
+background-image: repeating-linear-gradient(угол 90? #d3d3d3, transparent 2px),  - одна полоска 2px слева направо #d3d3d3 и одна - transparent в светлой теме 
+                  repeating-linear-gradient(#E7E7E7, #1A1A1A);  - второй градиент светлая тема цвета, сверху вниз
+
+background-image: repeating-linear-gradient(угол ? #000, transparent), - в темной теме 
+                  repeating-linear-gradient(#007f0c, #004306);    - второй градинет темная тема цвета
 
 background-position
 backgroung size
