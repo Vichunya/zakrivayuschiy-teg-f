@@ -16,7 +16,7 @@
 
 .page {
   min-inline-size: 320px;
-  min-block-size: 100dvb;
+  min-block-size: 100vh; /*не помню, откуда взялось ?*/
   font-family: var(--main-font), sans-serif;
 }
 
