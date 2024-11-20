@@ -57,6 +57,14 @@
     margin-top: 50px;
     width: 355px;
     height: 55px;
+    font-family: var(--accent-font);
+    font-size: 14px;              /*не работает*/
+    border: 2px solid #000;
+   }
+
+  .floopy {
+    width: 21px;
+    height; 21px;
   }
 
 /* градиенты
