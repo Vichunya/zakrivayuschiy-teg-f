@@ -26,7 +26,8 @@
   border: 2px solid #000;
   width: 700px;
   height: 368px;
-  align-items: center;
+  /*align-items: center;*/ 
+  margin-left: 370px; /*большой сдвиг или у меня так показывает на этом разрешении...*/  
 }
 
 .header_content {
@@ -37,6 +38,7 @@
 
   .card {
     margin-top: 100px;
+    margin-left: 372px;
   }
 
   .p { 
@@ -53,8 +55,9 @@
 
   .footer {
     display: flex;
-    justify-content: center;  /*cдвиг небольшой*/
+    /*justify-content: center;  /*cдвиг небольшой*/
     margin-top: 50px;
+    margin-left: 552px;  /*большой сдвиг ?*/
     width: 355px;
     height: 55px;
     font-family: var(--accent-font);
