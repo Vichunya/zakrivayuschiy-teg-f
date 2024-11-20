@@ -35,6 +35,30 @@
   margin-right: 370px
   }
 
+  .card {
+    margin-top: 100px;
+  }
+
+  .p { 
+    width: 646px;     /*не работает все кроме верхнего марджина*/
+    height: 111px;
+    margin-top: 27px;
+    margin-left: 25px;  
+  }
+
+  .button {
+    margin-top: 25px;
+    justify-content: end; /*не работает*/
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;  /*cдвиг небольшой*/
+    margin-top: 50px;
+    width: 355px;
+    height: 55px;
+  }
+
 /* градиенты
 background-image: repeating-linear-gradient(угол 90? #d3d3d3, transparent 2px),  - одна полоска 2px слева направо #d3d3d3 и одна - transparent в светлой теме 
                   repeating-linear-gradient(#E7E7E7, #1A1A1A);  - второй градиент светлая тема цвета, сверху вниз
