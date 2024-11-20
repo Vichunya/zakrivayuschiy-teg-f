@@ -20,7 +20,7 @@
   font-family: var(--main-font), sans-serif;
 }
 
-.header {
+.header {                    /*сделать отступы в шапке*/
   display: flex;
   flex-direction: column;
   border: 2px solid #000;
@@ -80,4 +80,20 @@ background-image: repeating-linear-gradient(угол ? #000, transparent), - в 
 
 background-position
 backgroung size
+*/
+
+/*
+Для кнопки LIKE
+button:hover{
+   cursor: pointer;
+}
+button:focus{
+outline: none;
+}
+.button:focus-visible {
+  outline: 1px solid #000; надо ли ?
+  box-shadow: 2px 2px #000;
+}
+button:active  - оно ? когда лайк поставлен
+
 */
