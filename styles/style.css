@@ -16,24 +16,23 @@
 
 .page {
   min-inline-size: 320px;
-  min-block-size: 100vh; /*не помню, откуда взялось ?*/
   font-family: var(--main-font), sans-serif;
 }
 
-.header {                    /*сделать отступы в шапке*/
+.header {                    
   display: flex;
   flex-direction: column;
   border: 2px solid #000;
   width: 700px;
   height: 368px;
-  /*align-items: center;*/ 
-  margin-left: 370px; /*большой сдвиг или у меня так показывает на этом разрешении...*/  
+  justify-self: center;
+  align-items: center;
 }
 
 .header_content {
-  margin-top: 100px;
-  margin-left: 370px;
-  margin-right: 370px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
 
   .card {
