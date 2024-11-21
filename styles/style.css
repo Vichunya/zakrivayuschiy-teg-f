@@ -16,6 +16,7 @@
 .page {
   min-inline-size: 320px;
   font-family: var(--main-font), sans-serif;
+  background-color: repeating-linear-gradient(#E7E7E7, #1A1A1A);
 }
 
 .header {                    
