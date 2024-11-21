@@ -71,6 +71,12 @@
     height; 21px;
   }
 
+/* SVG в футере у меня через img ? Но я увидела и другую запись...
+<button type="button" class="footer__button"> 
+<svg class="floopy" width="21" height="21" viewport="0 0 21 21">
+<use href="./svg/floopy...."></use>
+*/
+
 /* градиенты
 background-image: repeating-linear-gradient(угол 90? #d3d3d3, transparent 2px),  - одна полоска 2px слева направо #d3d3d3 и одна - transparent в светлой теме 
                   repeating-linear-gradient(#E7E7E7, #1A1A1A);  - второй градиент светлая тема цвета, сверху вниз
