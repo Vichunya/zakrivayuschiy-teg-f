@@ -55,27 +55,22 @@
     margin-left: 25px;  
   }
 
-  .card__like-button {          /*разобраться с указанными классами и бордер только для LIKE*/
-    margin-top: 25px;
-    justify-content: end; /*не работает*/
+  .card__like-button {          
+    align-self: end; 
     border: 2px solid #000;     
   }
 
   .footer {
-    display: flex;
-    /*justify-content: center;  /*cдвиг небольшой*/
-    margin-top: 50px;
-    margin-left: 552px;  /*большой сдвиг ?*/
-    width: 355px;
-    height: 55px;
+    width: 335px;
     font-family: var(--accent-font);
     font-size: 14px;              /*не работает*/
     border: 2px solid #000;
+    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/ 
    }
 
   .floopy {
     width: 21px;
-    height; 21px;
+    height: 21px; 
   }
 
 /* SVG в футере у меня через img ? Но я увидела и другую запись...
