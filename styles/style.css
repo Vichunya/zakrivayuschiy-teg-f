@@ -36,9 +36,16 @@
   align-items: center;
   }
 
+ .main {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+  align-items: center;
+  justify-self: center;
+}
+
   .card {
-    margin-top: 100px;
-    margin-left: 372px;
+
   }
 
   .p { 
