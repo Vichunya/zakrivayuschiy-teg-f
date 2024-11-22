@@ -16,9 +16,10 @@
 .page {
   min-inline-size: 320px;
   font-family: var(--main-font), sans-serif;
-  background-image: repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
-                  /*  repeating-linear-gradient(),*/
-                    repeating-linear-gradient(#E7E7E7, #1A1A1A);
+  background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),  /*догадываюсь о значениях 0 2px, но не понимаю значений 2px 4px*/
+                    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+                    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%); /* linear, а не repeating-linear 0.01% - по заданию, не понимаю значений 0% И 100%*/
+                    /* или linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);*/
 }
 
 .header {                    
@@ -37,6 +38,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: var(--accent-font);
   }
 
  .main {
@@ -102,6 +104,9 @@
 /* градиенты
 background-image: repeating-linear-gradient(угол ? #000, transparent), - в темной теме 
                   repeating-linear-gradient(#007f0c, #004306);    - второй градинет темная тема цвета
+
+                  repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+                    repeating-linear-gradient(#E7E7E7, #1A1A1A);
 
 background-position
 backgroung size
