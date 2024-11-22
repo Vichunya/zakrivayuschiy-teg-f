@@ -34,7 +34,7 @@
   background-color: white;
 }
 
-.header_content {                   /*использовать gap и шрифт и ауилайны*/
+.header_content {                   /*использовать gap и шрифт и аутлайны*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,11 @@
 
   .subtitle {
     font-size: 23px;   /*кажется, какое-то другое начертание*/
+  }
+
+  .theme-menu__item {
+    font-size: 14px;
+    background-color: transparent; /*перепробовала разное, цвет рамки кнопок не убирается*/
   }
 
  .main {
