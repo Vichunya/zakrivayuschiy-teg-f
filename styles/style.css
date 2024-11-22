@@ -41,6 +41,14 @@
   font-family: var(--accent-font);
   }
 
+  .title {
+    font-size: 65px;
+  }
+
+  .subtitle {
+    font-size: 23px;   /*кажется, какое-то другое начертание*/
+  }
+
  .main {
   display: flex;
   flex-direction: column;
