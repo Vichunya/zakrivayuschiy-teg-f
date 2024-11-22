@@ -16,9 +16,9 @@
 .page {
   min-inline-size: 320px;
   font-family: var(--main-font), sans-serif;
-  background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0/0) 2px 4px), 
+  background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0/0) 2px 4px),  /*догадываюсь о значениях 0 2px, но не понимаю значений 2px 4px*/
                     repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0/0) 2px 4px),
-                    repeating-linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%); 
+                    repeating-linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%); /*0.01% - по заданию, не понимаю значений 0% И 100%*/
 }
 
 .header {                    
