@@ -77,20 +77,33 @@
   font-weight: 700;
   font-size: 18px;   
   line-height: 21.78px;
+  margin-left: 10px;
  }
 
   .card {
    display: flex;
    flex-direction: column;
    border: 2px solid #000;
+   background-color: #FFFFFF;
   }
 
   .text { 
-    width: 646px;     
-    height: 111px;
-    margin-top: 27px;
-    margin-left: 25px;  
-    font-size: 18px;
+  width: 646px;     
+  height: 111px;
+  margin-left: 25px;  
+  font-size: 18px;
+  font-family: "Inter", sans-serif;  /* что-то со шрифтами*/
+  font-weight: 400;
+  line-height: 21px;
+  }
+
+  .text-begining {
+   margin-top: 25px;
+  }
+
+  .text-memory {
+    margin-top: 27px; /*как в фигме, но без него лучше*/
+    margin-bottom: 25px;
   }
 
   .button_container{
