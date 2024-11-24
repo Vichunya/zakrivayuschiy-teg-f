@@ -115,6 +115,14 @@
     margin-bottom: 25px;
   }
 
+  .card__icon-button {
+    /*width: 3px;
+    height: 3px;         сердце спряталось
+    position: absolute;
+    top: 30px;
+    left: 12px; */
+  }
+
   .card__like-button {          
     border: 2px solid #000;     
     width: 130px;
