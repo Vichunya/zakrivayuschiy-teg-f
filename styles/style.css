@@ -31,7 +31,7 @@
   justify-self: center;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .header_content {                   /*использовать gap и шрифт и аутлайны*/
@@ -52,7 +52,8 @@
 
   .theme-menu__item {
     font-size: 14px;
-    background-color: transparent; /*перепробовала разное, цвет рамки кнопок не убирается*/
+    background-color:#FFFFFF; /*перепробовала разное, цвет рамки кнопок не убирается*/
+
   }
 
   .theme-menu__list {
@@ -68,11 +69,20 @@
   width: 696px;
   align-items: center;
   justify-self: center;
+  margin-top: 102px;
 }
+
+ .title_preparation {
+  font-family: "Inter", sans-serif;  /*по макету, но кажется надо тоньше*/
+  font-weight: 700;
+  font-size: 18px;   
+  line-height: 21.78px;
+ }
 
   .card {
    display: flex;
    flex-direction: column;
+   border: 2px solid #000;
   }
 
   .text { 
@@ -123,12 +133,6 @@
 */
 
 /* градиенты
-background-image: repeating-linear-gradient(угол ? #000, transparent), - в темной теме 
-                  repeating-linear-gradient(#007f0c, #004306);    - второй градинет темная тема цвета
-
-                  repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
-                    repeating-linear-gradient(#E7E7E7, #1A1A1A);
-
 background-position
 backgroung size
 */
