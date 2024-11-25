@@ -46,15 +46,18 @@
   }
 
   .subtitle {
-    font-size: 23px;   /*кажется, какое-то другое начертание*/
+    font-size: 23px;   
     margin-top: 20px;
   }
 
   .theme-menu__item {
     font-size: 14px;
-    background-color:#FFFFFF; /*перепробовала разное, цвет рамки кнопок не убирается*/
+ }
 
-  }
+ .theme-menu__button {
+  background-color: transparent;
+  border: none;
+ }
 
   .theme-menu__list {
     display: flex;
