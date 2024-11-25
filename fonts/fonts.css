@@ -1,9 +1,9 @@
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
 @font-face {
-    font-family: "PressStart2P";
+    font-family: "PressStart2P";                  /*font-weight: 400;*/
     src: url(./PressStart2P-Regular.woff) format("woff");
     font-weight: normal;    
-    font-display: swap;     /* это время загрузки ? Его нужно писать ? */
+    font-display: swap;     
   }
   
   @font-face {                               
