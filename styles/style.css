@@ -104,7 +104,8 @@
   }
 
   .button_container{
-    align-self: end; 
+    display: flex;
+    align-self: end;  /*работает и без флекса, display block - по умолчанию*/
     margin-top: 25px; 
     margin-right: 25px;
     margin-bottom: 25px;
@@ -113,6 +114,8 @@
   .card__icon-button {
     border: none;
     background-color: transparent;
+    padding: 0px;
+
   }
 
   .card__like-button {          
