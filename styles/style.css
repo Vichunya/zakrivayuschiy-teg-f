@@ -163,14 +163,22 @@
 
   .footer {
     width: 335px;
+    height: 51px;
     font-family: var(--accent-font);
     font-size: 14px;              
     border: 2px solid #000;
-    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/ 
+    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
     margin-top: 50px;
     background-color: #ffffff; 
   }
-
+     
+  .footer_content {     /*выровнить содержимое футера*/
+    text-align: center;
+    vertical-align: center;  /*Не сработал. Отличие в том, что свойство text-align применяется к родительскому блоку, а vertical-align необходимо применять непосредственно к выравниваемому элементу.*/
+    /*margin-top: 18.5px;   верхний - слишком большой, нижни - не работает 
+    margin-bottom: 18.5px; */
+  }  
+  
   .floopy {
     width: 21px;
     height: 21px; 
