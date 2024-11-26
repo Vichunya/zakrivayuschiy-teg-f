@@ -107,8 +107,8 @@
   .card {
    display: flex;
    flex-direction: column;
-   border: 2px solid #000;
-   background-color: #FFFFFF;
+   border: 2px solid var(--border-color);
+   background-color: var(--background-color);
   }
 
   .card_container {
@@ -141,10 +141,10 @@
   }
 
   .card__like-button {            /*LIKE button*/
-    border: 2px solid #000;     
+    border: 2px solid var(--border-color);     
     width: 130px;
     height: 38px;
-    background-color: #ffffff;
+    background-color: var(--background-color);
     font-family: var(--accent-font);
     font-size: 14px;
   }
@@ -158,7 +158,7 @@
     }
 
   .card__like-button:focus-visible {
-    box-shadow: 2px 2px #000;
+    box-shadow: 2px 2px var(--box-shadow-color);
     }
 
   .card__icon-button:hover {   /*сердце*/ 
@@ -175,10 +175,10 @@
     height: 51px;
     font-family: var(--accent-font);
     font-size: 14px;              
-    border: 2px solid #000;
+    border: 2px solid var(--border-color);
     justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
     margin-top: 50px;
-    background-color: #ffffff; 
+    background-color: var(--background-color); 
   }
      
   .footer_content {     /*выровнить содержимое футера*/
