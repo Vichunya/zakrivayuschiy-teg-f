@@ -77,7 +77,7 @@
  }
 
   .theme-menu__button:disabled {              /*не понимаю, как обозначить стрелочку ?*/
-
+   transition ? 
   }
 
   .theme-menu__list {
