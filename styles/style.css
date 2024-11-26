@@ -130,6 +130,7 @@
     margin-top: 25px; 
     margin-right: 25px;
     margin-bottom: 25px;
+    gap: 12px;
   }
 
   .card__icon-button {
@@ -139,10 +140,13 @@
 
   }
 
-  .card__like-button {          
+  .card__like-button {            /*LIKE button*/
     border: 2px solid #000;     
     width: 130px;
     height: 38px;
+    background-color: #ffffff;
+    font-family: var(--accent-font);
+    font-size: 14px;
   }
 
   .card__like-button:hover {
