@@ -55,9 +55,25 @@
     font-size: 14px;
  }
 
- .theme-menu__button {
+ .theme-menu__button {       /*три кнопки*/
   background-color: transparent;
   border: none;
+ }
+
+ .theme-menu__button:hover {
+
+ }
+
+ .theme-menu__button:focus {
+
+ }
+
+ .theme-menu__button:focus-visible {
+
+ }
+
+ .theme-menu__button {
+  
  }
 
   .theme-menu__list {
