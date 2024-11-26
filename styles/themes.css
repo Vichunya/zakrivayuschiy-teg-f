@@ -47,4 +47,9 @@
     .subtitle {
         color:#00CC14;
        }
-}
+
+    .page {
+        background-image: repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),  
+                    repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+                    linear-gradient(#007f0c, #004306);
+                }
