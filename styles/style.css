@@ -161,6 +161,15 @@
     box-shadow: 2px 2px #000;
     }
 
+  .card__icon-button:hover {   /*сердце*/ 
+    cursor: pointer;
+  }
+
+  .card__icon-button:active {   /*сердце*/  /* зажать ?*/
+    /* color:#000; */
+  }
+  
+
   .footer {
     width: 335px;
     height: 51px;
@@ -183,6 +192,21 @@
     width: 21px;
     height: 21px; 
   }
+
+@media (width <= 375px) {    /* не так*/
+  .page {
+    width: 375px;
+  }
+
+  /*.header { 
+    width: 375px;
+          } */
+
+  .title {
+    font-size: 49px;
+  }
+        
+}
 
 /* SVG в футере у меня через img ? Но я увидела и другую запись...
 <button type="button" class="footer__button"> 
