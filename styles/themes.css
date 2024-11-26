@@ -7,12 +7,26 @@
 
 /*В файле styles/themes.css переопределите значения этих переменных в селекторах :root.theme-dark и :root.theme-light на нужные. 
 Заодно поменяйте значения переменных толщины шрифта. Не забудьте описать значения для пользовательского предпочтения тёмной темы.*/
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color:
-        --accent-color: 
-    }
+
+
+:root.theme-light {
+    --background-color: #fff;
+    --accent-color: 
+    --button-hover-light-color: rgb(0, 0, 0, 0.6);
+    --border-color: #000000;
+    --box-shadow-color: #000000;
+} 
+
+:root.theme-dark {
+    --background-color: #;
+    --accent-color: 
+    --button-hover-light-color: rgb();
+    --border-color: #;
+    --box-shadow-color: #;
 }
 
-:root.theme-dark
-:root.theme-light 
+@media (prefers-color-scheme: dark) {
+    {
+
+    }
+}
