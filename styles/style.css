@@ -25,13 +25,13 @@
 .header {                    
   display: flex;
   flex-direction: column;
-  border: 2px solid #000;
+  border: 2px solid var(--border-color);
   width: 700px;
   height: 368px;
   justify-self: center;
   align-items: center;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: var(--background-color);
   margin-top: 100px;
 }
 
@@ -69,7 +69,7 @@
  }
 
  .theme-menu__button:hover {
-  color: rgb(0, 0, 0, 0.6);
+  color: rgb(0, 0, 0, 0.6);    /*внести в переменную*/
  }
 
  .theme-menu__button:active {
