@@ -18,15 +18,33 @@
 } 
 
 :root.theme-dark {
-    --background-color: #;
-    --accent-color: 
-    --button-hover-light-color: rgb();
-    --border-color: #;
-    --box-shadow-color: #;
+    /* --background-color: #000000; */
+    --accent-color:
+    --button-hover-light-color: rgb();  
+    /* --border-color: #00CC14;  в светлой теме становится зеленая обводка */           
+    --text-color: 
+    --box-shadow-color: 
 }
 
 @media (prefers-color-scheme: dark) {
-    {
-
+    :root.theme-dark {
+        --background-color: #000000; 
+        --accent-color:
+        --button-hover-light-color: rgb();  
+        --border-color: #00CC14;             
+        --text-color: 
+        --box-shadow-color: 
     }
+
+    .header_content {
+        color:#00CC14;
+      }
+
+    .title {
+        color:#00CC14;
+       }
+
+    .subtitle {
+        color:#00CC14;
+       }
 }
