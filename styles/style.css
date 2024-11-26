@@ -60,10 +60,6 @@
   border: none;
  }
 
- .theme-menu__button:hover {
-  color: rgb(0, 0, 0, 0.6);
- }
-
  .theme-menu__button:focus {
    /* outline:none; - так было в ПР2, но у нас нет рамки изначально, значит FOCUS вообще убрать ? */
  }
@@ -72,9 +68,17 @@
   /* мне кажется, focus visible и исходное состояние одинаковое*/
  }
 
- .theme-menu__button {
-
+ .theme-menu__button:hover {
+  color: rgb(0, 0, 0, 0.6);
  }
+
+ .theme-menu__button:active {
+  color: rgb(0, 0, 0, 0.6);   
+ }
+
+  .theme-menu__button:disabled {              /*не понимаю, как обозначить стрелочку ?*/
+
+  }
 
   .theme-menu__list {
     display: flex;
