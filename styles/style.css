@@ -61,19 +61,19 @@
  }
 
  .theme-menu__button:hover {
-
+  color: rgb(0, 0, 0, 0.6);
  }
 
  .theme-menu__button:focus {
-
+   /* outline:none; - так было в ПР2, но у нас нет рамки изначально, значит FOCUS вообще убрать ? */
  }
 
  .theme-menu__button:focus-visible {
-
+  /* мне кажется, focus visible и исходное состояние одинаковое*/
  }
 
  .theme-menu__button {
-  
+
  }
 
   .theme-menu__list {
