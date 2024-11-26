@@ -19,7 +19,7 @@
   background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),  
                     repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
                     linear-gradient(#e7e7e7 0.01%, #1a1a1a); 
-  background-attachment: fixed;                  
+  background-attachment: fixed;                  /*чтобы градиент не двигался*/
                   }
 
 .header {                    
@@ -190,16 +190,3 @@
 <use href="./svg/floopy...."></use>
 */
 
-/*
-Для кнопки LIKE
-
-card__like-button:focus{
-outline: none;
-}
-.card__like-button:focus-visible {
-  outline: 1px solid #000; надо ли ?
-  box-shadow: 2px 2px #000;
-}
-button:active  - оно ? когда лайк поставлен
-
-*/
