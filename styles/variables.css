@@ -3,8 +3,10 @@
     --main-font: "Inter";             
     --accent-font: "PressStart2P"; 
     --background-color: #fff;
-    --accent-color: 
     --button-hover-light-color: rgb(0, 0, 0, 0.6);
     --border-color: #000000;
     --box-shadow-color: #000000;
+    --repeating-gradient-color: #d3d3d3;
+    --gradient-color-start: #e7e7e7;
+    --gradient-color-end: #1a1a1a;
 } 
