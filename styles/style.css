@@ -109,6 +109,11 @@
     margin-top: 25px; 
     margin-right: 25px;
     margin-bottom: 25px;
+    gap: 12px;
+  }
+
+  .like-icon {
+    margin-top: 9px;
   }
 
   .card__icon-button {
@@ -147,7 +152,7 @@
   }
 
   .floopy {
-    width: 21px;
+    width: 21px;               test
     height: 21px; 
   }
 
