@@ -22,7 +22,7 @@
   background-attachment: fixed;                  /*чтобы градиент не двигался*/
                   }
 
-.header {                    
+.header {                                  /*ф-ии для вариативного*/
   display: flex;
   flex-direction: column;
   border: 2px solid var(--border-color);
@@ -62,7 +62,7 @@
  }
 
  .theme-menu__button:focus {
-  outline: none;      /* посмотреть !*/
+  outline: none;      
  }
 
  .theme-menu__button:focus-visible {
@@ -70,14 +70,14 @@
  }
 
  .theme-menu__button:hover {
-  color: rgb(0, 0, 0, 0.6);    /*внести в переменную*/
+  color: rgb(0, 0, 0, 0.6);    /*внести в переменную !!!!!*/
  }
 
- .theme-menu__button:active {
+ .theme-menu__button:disabled {     /*серое состояние после нажатия*/ 
   color: rgb(0, 0, 0, 0.6);   
  }
 
-  .theme-menu__button:before:disabled  {  
+  .theme-menu__button:disabled:before  {  
    content: "▶";
   }
 
