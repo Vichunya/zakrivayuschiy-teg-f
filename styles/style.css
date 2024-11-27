@@ -19,19 +19,20 @@
   background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),  
                     repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
                     linear-gradient(#e7e7e7 0.01%, #1a1a1a); 
-  background-attachment: fixed;                  
+  background-attachment: fixed;                  /*чтобы градиент не двигался*/
                   }
 
 .header {                    
   display: flex;
   flex-direction: column;
-  border: 2px solid #000;
+  border: 2px solid var(--border-color);
   width: 700px;
   height: 368px;
   justify-self: center;
   align-items: center;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: var(--background-color);
+  margin-top: 100px;
 }
 
 .header_content {                   /*использовать gap и шрифт и аутлайны*/
@@ -54,10 +55,30 @@
     font-size: 14px;
  }
 
- .theme-menu__button {
+ .theme-menu__button {       /*три кнопки*/
   background-color: transparent;
   border: none;
  }
+
+ .theme-menu__button:focus {
+   /* outline:none; - так было в ПР2, но у нас нет рамки изначально, значит FOCUS вообще убрать ? */
+ }
+
+ .theme-menu__button:focus-visible {
+  /* мне кажется, focus visible и исходное состояние одинаковое*/
+ }
+
+ .theme-menu__button:hover {
+  color: rgb(0, 0, 0, 0.6);    /*внести в переменную*/
+ }
+
+ .theme-menu__button:active {
+  color: rgb(0, 0, 0, 0.6);   
+ }
+
+  .theme-menu__button:disabled {              /*не понимаю, как обозначить стрелочку ?*/
+   transition ? 
+  }
 
   .theme-menu__list {
     display: flex;
@@ -86,8 +107,8 @@
   .card {
    display: flex;
    flex-direction: column;
-   border: 2px solid #000;
-   background-color: #FFFFFF;
+   border: 2px solid var(--border-color);
+   background-color: var(--background-color);
   }
 
   .card_container {
@@ -123,10 +144,13 @@
 
   }
 
-  .card__like-button {          
-    border: 2px solid #000;     
+  .card__like-button {            /*LIKE button*/
+    border: 2px solid var(--border-color);     
     width: 130px;
     height: 38px;
+    background-color: var(--background-color);
+    font-family: var(--accent-font);
+    font-size: 14px;
   }
 
   .card__like-button:hover {
@@ -138,23 +162,55 @@
     }
 
   .card__like-button:focus-visible {
-    box-shadow: 2px 2px #000;
+    box-shadow: 2px 2px var(--box-shadow-color);
     }
+
+  .card__icon-button:hover {   /*сердце*/ 
+    cursor: pointer;
+  }
+
+  .card__icon-button:active {   /*сердце*/  /* зажать ?*/
+    /* color:#000; */
+  }
+  
 
   .footer {
     width: 335px;
+    height: 51px;
     font-family: var(--accent-font);
     font-size: 14px;              
-    border: 2px solid #000;
-    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/ 
+    border: 2px solid var(--border-color);
+    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
     margin-top: 50px;
-    background-color: #ffffff; 
+    background-color: var(--background-color); 
   }
-
+     
+  .footer_content {     /*выровнить содержимое футера*/
+    text-align: center;
+    vertical-align: center;  /*Не сработал. Отличие в том, что свойство text-align применяется к родительскому блоку, а vertical-align необходимо применять непосредственно к выравниваемому элементу.*/
+    /*margin-top: 18.5px;   верхний - слишком большой, нижни - не работает 
+    margin-bottom: 18.5px; */
+  }  
+  
   .floopy {
     width: 21px;               test
     height: 21px; 
   }
+
+@media (width <= 375px) {    /* не так*/
+  .page {
+    width: 375px;
+  }
+
+  /*.header { 
+    width: 375px;
+          } */
+
+  .title {
+    font-size: 49px;
+  }
+        
+}
 
 /* SVG в футере у меня через img ? Но я увидела и другую запись...
 <button type="button" class="footer__button"> 
@@ -162,21 +218,3 @@
 <use href="./svg/floopy...."></use>
 */
 
-/* градиенты
-background-position
-backgroung size
-*/
-
-/*
-Для кнопки LIKE
-
-card__like-button:focus{
-outline: none;
-}
-.card__like-button:focus-visible {
-  outline: 1px solid #000; надо ли ?
-  box-shadow: 2px 2px #000;
-}
-button:active  - оно ? когда лайк поставлен
-
-*/
