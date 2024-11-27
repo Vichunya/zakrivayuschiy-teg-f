@@ -14,6 +14,7 @@
     --button-hover-light-color: rgb(0, 0, 0, 0.6);
     --border-color: #000000;
     --box-shadow-color: #000000;
+    --text-color: #000000;
     --repeating-gradient-color: #d3d3d3;
     --gradient-color-start: #e7e7e7;
     --gradient-color-end: #1a1a1a;
@@ -21,25 +22,40 @@
 
 :root.theme-dark {
     --background-color: #000000; 
-    --border-color: #00CC14;  /* в светлой теме становится зеленая обводка */     
-
-
+    --border-color: #00CC14;     
+    --color: #00CC14;    
+ 
+    --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
+    --text-color: #00CC14;
+    --box-shadow-color: #00CC14;
+    --repeating-gradient-color: #000 ;
+    --gradient-color-start: #007f0c;
+    --gradient-color-end: #004306;    
 }
+
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #000000; 
         --border-color: #00CC14;     
-        --color: #00CC14;        
+        --color: #00CC14;    
+     
+        --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
+        --text-color: #00CC14;
+        --box-shadow-color: #00CC14;
+        --repeating-gradient-color: #000 ;
+        --gradient-color-start: #007f0c;
+        --gradient-color-end: #004306;    
     }
 }
 
 @media (prefers-color-scheme: light) {
-    root: {
+    :root {
     --background-color: #fff;
     --button-hover-light-color: rgb(0, 0, 0, 0.6);
     --border-color: #000000;
     --box-shadow-color: #000000;
+    --text-color: #000000;
     --repeating-gradient-color: #d3d3d3;
     --gradient-color-start: #e7e7e7;
     --gradient-color-end: #1a1a1a;

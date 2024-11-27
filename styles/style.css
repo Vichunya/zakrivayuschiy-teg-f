@@ -33,6 +33,7 @@
   justify-content: center;
   background-color: var(--background-color);
   margin-top: 100px;
+  color: var(--text-color);
 }
 
 .header_content {                   /*использовать gap и шрифт и аутлайны*/
@@ -94,6 +95,7 @@
   align-items: center;
   justify-self: center;
   margin-top: 102px;
+  color: var(--text-color);
 }
 
  .title_preparation {
@@ -192,6 +194,7 @@
    display: flex;
    align-items: center;
    gap: 8px;
+   color: var(--text-color);
   }  
   
   .floopy {
