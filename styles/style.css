@@ -61,11 +61,11 @@
  }
 
  .theme-menu__button:focus {
-   /* outline:none; - так было в ПР2, но у нас нет рамки изначально, значит FOCUS вообще убрать ? */
+  outline: none;      /* посмотреть !*/
  }
 
  .theme-menu__button:focus-visible {
-  /* мне кажется, focus visible и исходное состояние одинаковое*/
+   border: none;
  }
 
  .theme-menu__button:hover {
@@ -76,8 +76,8 @@
   color: rgb(0, 0, 0, 0.6);   
  }
 
-  .theme-menu__button:disabled {              /*не понимаю, как обозначить стрелочку ?*/
-   transition ? 
+  .theme-menu__button:before:disabled  {  
+   content: "▶";
   }
 
   .theme-menu__list {
@@ -175,6 +175,8 @@
   
 
   .footer {
+    display: flex;
+    justify-content: center;
     width: 335px;
     height: 51px;
     font-family: var(--accent-font);
@@ -183,17 +185,17 @@
     justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
     margin-top: 50px;
     background-color: var(--background-color); 
+    margin-bottom: 103px;
   }
      
   .footer_content {     /*выровнить содержимое футера*/
-    text-align: center;
-    vertical-align: center;  /*Не сработал. Отличие в том, что свойство text-align применяется к родительскому блоку, а vertical-align необходимо применять непосредственно к выравниваемому элементу.*/
-    /*margin-top: 18.5px;   верхний - слишком большой, нижни - не работает 
-    margin-bottom: 18.5px; */
+   display: flex;
+   align-items: center;
+   gap: 8px;
   }  
   
   .floopy {
-    width: 21px;               test
+    width: 21px;              
     height: 21px; 
   }
 
