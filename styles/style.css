@@ -200,14 +200,19 @@
   }
 
 @media (width <= 375px) {    /* не так*/
-  .page {
+  
+  .header { 
+    width: 375px;
+          } 
+
+  .main {
+    width: 375px;
+  }        
+      
+  .main_picture {
     width: 375px;
   }
-
-  /*.header { 
-    width: 375px;
-          } */
-
+  
   .title {
     font-size: 49px;
   }
