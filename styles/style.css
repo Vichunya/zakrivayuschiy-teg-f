@@ -157,6 +157,7 @@
 
   .card__like-button:hover {
     cursor: pointer;
+    /*transition: color 0.5s; */
   }
 
   .card__like-button:focus{
