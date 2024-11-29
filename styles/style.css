@@ -152,7 +152,10 @@
     background-color: var(--background-color);
     font-family: var(--accent-font);
     font-size: 14px;
+    position: relative; 
   }
+
+  
 
   .card__like-button:focus{
     outline: none;

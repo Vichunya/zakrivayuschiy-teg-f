@@ -16,12 +16,21 @@
 
 .card__like-button:hover {
     cursor: pointer;
-    /*transition: color 0.5s; */
-    transition: color 1s ease-out; /* начинается быстро, заканчивается медленно, мне так видится ? */
-    color:#000000; 
+    transition: background-color 1s ease-out; /* начинается быстро, заканчивается медленно, мне так видится ? */
+    background-color:#000000; 
     /*transition: color margin-right 1s;    /*но как менять цвет именно на черный ?*/ /*https://developer.mozilla.org/ru/docs/Web/CSS/transition*/
     
   }
+
+  .card__like-button:before {
+    content: "";
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color: pink;
+    transform: scaleX(1);
+    transition: transform 1s ease-out;
+  } 
 
 .button__text {
     color: #000000;  /*начальный цвет текста - черный */
@@ -33,12 +42,7 @@
      
 }
 
-/*.card__like-button{                 ЭТО ПРОСТО ПРОБОВАЛА, СРАБОТАЕТ ЛИ ? НЕ РАБОТАЕТ
-    color: blue; Синий цвет ссылок 
-    transition: 1s; Время изменения */
-   
-/*.card__like-button:hover {
-    color: red; /* Красный цвет ссылки*/
+
 
  @keyframes menuButtons {
     0% {                          /*start position, start animation*/
