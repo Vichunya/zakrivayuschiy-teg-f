@@ -75,9 +75,8 @@
 
   .theme-menu__button:disabled:before  {  
    content: "▶";
-   transform: translateX(1px);  /* при ховере сдвиг по X*/
-   transition: transform 0.2s;  /* для плавности в теории */
-  
+   position: absolute;
+   margin-right: 15px;
   }
 
   .theme-menu__list {

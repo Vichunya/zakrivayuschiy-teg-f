@@ -38,3 +38,17 @@
    
 /*.card__like-button:hover {
     color: red; /* Красный цвет ссылки*/
+
+ @keyframes menuButtons {
+    0% {                          /*start position, start animation*/
+      transform: translateX(0px);
+    }
+
+    100% {
+      transform: translateX(-10px); 
+    }
+  }
+  
+  .theme-menu__button:disabled:before {
+    animation: menuButtons 1s linear infinite alternate;
+  }
