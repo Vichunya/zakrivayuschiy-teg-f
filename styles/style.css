@@ -70,7 +70,7 @@
  }
 
  .theme-menu__button:hover {
-  color: var(--menu-button-hover-light);   
+  color: var(--menu-button-hover);   
  }
 
  .theme-menu__button:disabled {     /*серое состояние после нажатия*/ 
