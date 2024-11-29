@@ -70,7 +70,7 @@
  }
 
  .theme-menu__button:hover {
-  color: var(--menu-button-hover);   
+  color: var(--menu-button-hover);   /*добавила переменную, но в темном цвете не видно кнопки, но не всех, а только одной*/
  }
 
  .theme-menu__button:disabled {     /*серое состояние после нажатия*/ 

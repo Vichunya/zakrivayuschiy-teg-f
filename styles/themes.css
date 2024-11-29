@@ -32,6 +32,7 @@
     --repeating-gradient-color: #000 ;
     --gradient-color-start: #007f0c;
     --gradient-color-end: #004306;    
+    --menu-button-hover: rgb(0, 204, 20, 0.6);
 }
 
 
@@ -47,7 +48,7 @@
         --repeating-gradient-color: #000 ;
         --gradient-color-start: #007f0c;
         --gradient-color-end: #004306;    
-        --menu-button-hover: rgb(0, 0, 0, 0.6);
+        --menu-button-hover: rgb(0, 204, 20, 0.6);
     }
 }
 
