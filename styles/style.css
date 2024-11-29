@@ -69,8 +69,13 @@
    border: none;
  }
 
- .theme-menu__button:hover {
+ .theme-menu__button:hover::before {
   color: var(--menu-button-hover);   /*добавила переменную, но в темном цвете не видно кнопки, но не всех, а только одной*/
+  transform: translateX(1px);  /* при ховере сдвиг по X*/
+ }
+
+ .theme-menu__button::before {
+  transition: transform 0.2s;  /* для плавности в теории */
  }
 
  .theme-menu__button:disabled {     /*серое состояние после нажатия*/ 
@@ -79,6 +84,7 @@
 
   .theme-menu__button:disabled:before  {  
    content: "▶";
+  
   }
 
   .theme-menu__list {
