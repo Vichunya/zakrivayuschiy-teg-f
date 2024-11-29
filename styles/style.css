@@ -172,6 +172,10 @@
     cursor: pointer;
   }
 
+  .card__icon-button:focus-visible {   /*сердце*/ 
+    outline: none; 
+  }
+
   .card__icon-button:active {   /*сердце*/  /* зажать ?*/
     /* color:#000; */
   }
