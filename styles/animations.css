@@ -18,3 +18,7 @@
     cursor: pointer;
     /*transition: color 0.5s; */
   }
+
+.button__text:hover {
+    color: #ffffff; 
+}
