@@ -59,6 +59,7 @@
  .theme-menu__button {       /*три кнопки*/
   background-color: transparent;
   border: none;
+  position: relative;
  }
 
  .theme-menu__button:focus {
@@ -76,7 +77,7 @@
   .theme-menu__button:disabled:before  {  
    content: "▶";
    position: absolute;
-   margin-right: 15px;
+   left: -15px;
   }
 
   .theme-menu__list {
