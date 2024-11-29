@@ -17,8 +17,17 @@
 .card__like-button:hover {
     cursor: pointer;
     /*transition: color 0.5s; */
+    /*transition: color 1s ease-out; /* начинается быстро, заканчивается медленно, мне так видится ? */
+    /*color:#000000; */
+    /*transition: color margin-right 1s;    /*но как менять цвет именно на черный ?*/ /*https://developer.mozilla.org/ru/docs/Web/CSS/transition*/
+    
   }
 
+.button__text {
+    color: #000000;  /*начальный цвет текста - черный */
+    
+}
 .button__text:hover {
-    color: #ffffff; 
+    color: #ffffff;   /*ховер - меняется на белый + черная полоса */
+     
 }
