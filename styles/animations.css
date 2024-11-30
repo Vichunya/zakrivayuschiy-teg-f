@@ -37,7 +37,9 @@
 
 .button__text {
     color: #000000;  /*начальный цвет текста - черный */
-    
+    position: relative;
+    z-index: 10;
+    mix-blend-mode: difference;
 }
 .button__text:hover {
     color: #ffffff;   /*ховер - меняется на белый + черная полоса */
