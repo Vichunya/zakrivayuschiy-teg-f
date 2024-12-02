@@ -203,10 +203,10 @@
     height: 21px; 
   }
 
-  .dialog::backdrop {
+/*  .dialog::backdrop {
    background-color: rgb(0 0 0/ 0.3);
-   backdrop-filter: blur(7px);            /* 7 пикселей указано в примере */
-  }
+   backdrop-filter: blur(7px);           
+  } */
 
 @media (width <= 375px) {   
   
