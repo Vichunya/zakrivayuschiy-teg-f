@@ -35,19 +35,6 @@
     transform: scaleX(1);
   }
 
-.button__text {
-    color: #000000;  /*начальный цвет текста - черный */
-    position: relative;
-    z-index: 10;
-    mix-blend-mode: difference;
-}
-.button__text:hover {
-    color: #ffffff;   /*ховер - меняется на белый + черная полоса */
-    transition: color 1s;
-     
-}
-
-
 
  @keyframes menuButtons {
     0% {                          /*start position, start animation*/

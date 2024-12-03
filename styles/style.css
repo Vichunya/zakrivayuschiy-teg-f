@@ -134,6 +134,13 @@
     gap: 12px;
   }
 
+  .button__text {
+    color: #ffffff;  /*начальный цвет текста - черный */
+    position: relative;
+    z-index: 10;
+    mix-blend-mode: difference;
+}
+
   .like-icon {
     margin-top: 9px;
   }
@@ -201,6 +208,7 @@
   .floopy {
     width: 21px;              
     height: 21px; 
+    mix-blend-mode: difference;
   }
 
   .dialog::backdrop {
