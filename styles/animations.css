@@ -35,6 +35,17 @@
     transform: scaleX(1);
   }
 
+  .main-body:hover {
+   transition: fill 0.3s;
+   fill: blue;
+   transition-delay: 0.05s;
+  }
+
+  .core:hover {
+    transition: fill 0.3s;
+    fill: blue;
+  }
+
 
  @keyframes menuButtons {
     0% {                          /*start position, start animation*/

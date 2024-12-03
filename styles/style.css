@@ -183,6 +183,10 @@
   .card__icon-button:active {   /*сердце*/  /* зажать ?*/
     /* color:#000; */
   }
+
+  .sparks {
+    opacity: 0;
+  }
   
   .footer {
     display: flex;
