@@ -49,24 +49,24 @@
  
   .main-body:hover {
    transition: fill 0.3s;
-   fill: blue;
+   fill: #000000;
    transition-delay: 0.05s;
   }
 
   .core:hover {
     transition: fill 0.3s;
-    fill: blue;
+    fill: #000000;
   }
 
   .main-body:active {
     transition: fill 0.3s;
-    fill: red;
+    fill: #FF0000;
     transition-delay: 0.05s;
    }
  
    .core:active {
      transition: fill 0.3s;
-     fill: red;
+     fill: #FF0000;
    }
 
 
