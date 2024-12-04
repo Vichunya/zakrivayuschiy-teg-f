@@ -107,17 +107,22 @@
     transition-delay: 0.06s;   /* контур перекрашивается с задержкой 0.06s*/
    }
 
+ 
 
-  /* .like-icon.is-liked .sparks {} */
-
- @keyframes heart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
+ @keyframes animationHeart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
   0% {
     transition: scale(1)
   }
-  100% {                            /*или 50%*/
+  100% {                            
     transition: scale(1.5)
   }
  }  
+
+ .like-icon.is-liked .heart {
+  animation: animationHeart 0.3s ease-in alternate;   
+  animation-delay: 0.1s;
+ }
+
 
  @keyframes sparks {
   0% {
