@@ -90,6 +90,19 @@
      fill: #FF0000;
    }
 
+   .like-icon.is-liked .core {              /*как при Active указано в шагах*/  /* Клик */
+    transition: fill 0.3s;
+    fill: #FF0000;
+   }
+
+   .like-icon.is-liked .main-body {        /*как при Active указано в шагах*/    /* Клик */
+    transition: fill 0.3s;
+    fill: #FF0000;
+    transition-delay: 0.05s;
+   }
+
+   .like-icon.is-liked .contour {}
+   .like-icon.is-liked .sparks {}
 
 
  @keyframes menuButtons {
