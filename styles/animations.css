@@ -35,6 +35,18 @@
     transform: scaleX(1);
   }
 
+  .card__icon-button:focus {    /*контейнер с сердцем*/
+   outline: none;
+  }
+
+  .card__icon-button:focus-visible {    /*контейнер с сердцем*/
+    outline: 2px solid #000000;
+   }
+
+   .card__icon-button .card__like-button {
+    outline: 2px solid transparent;  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
+   } 
+ 
   .main-body:hover {
    transition: fill 0.3s;
    fill: blue;
