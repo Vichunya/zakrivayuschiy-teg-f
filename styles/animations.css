@@ -124,13 +124,18 @@
  }
 
 
- @keyframes sparks {
+ @keyframes animationSparks {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1; 
   }
+ }
+
+ .like-icon.is-liked .sparks {
+  animation: animationSparks 0.3s ease-in alternate;
+  animation-delay: 0.3s;
  }
 
 
