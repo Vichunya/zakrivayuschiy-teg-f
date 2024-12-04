@@ -202,12 +202,14 @@
     margin-bottom: 103px;
   }
      
-  .footer_content {     
+  .footer_button {     
    display: flex;
    align-items: center;
    gap: 8px;
    color: var(--text-color);
   }  
+
+
   
   .floopy {
     width: 21px;              
