@@ -43,7 +43,7 @@
     outline: 2px solid #000000;
    }
 
-   .card__icon-button .card__like-button {
+  .card__icon-button .card__like-button {
     outline: 2px solid transparent;  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
    } 
  
@@ -57,6 +57,18 @@
     transition: fill 0.3s;
     fill: blue;
   }
+
+  .main-body:active {
+    transition: fill 0.3s;
+    fill: red;
+    transition-delay: 0.05s;
+   }
+ 
+   .core:active {
+     transition: fill 0.3s;
+     fill: red;
+   }
+
 
 
  @keyframes menuButtons {
