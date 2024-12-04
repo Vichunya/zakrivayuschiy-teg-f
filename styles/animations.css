@@ -108,7 +108,25 @@
    }
 
 
-   .like-icon.is-liked .sparks {}
+  /* .like-icon.is-liked .sparks {} */
+
+ @keyframes heart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
+  0% {
+    transition: scale(1)
+  }
+  100% {                            /*или 50%*/
+    transition: scale(1.5)
+  }
+ }  
+
+ @keyframes sparks {
+  0% {
+    transition:
+  }
+  100% {
+    transition: 
+  }
+ }
 
 
  @keyframes menuButtons {
