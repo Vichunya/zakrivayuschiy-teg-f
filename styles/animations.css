@@ -126,10 +126,10 @@
 
  @keyframes sparks {
   0% {
-    transition:
+    opacity: 0;
   }
   100% {
-    transition: 
+    opacity: 1; 
   }
  }
 
