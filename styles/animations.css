@@ -58,6 +58,27 @@
     fill: #000000;
   }
 
+/*
+   .main-body {                            в обратной ситуации, когда курсор уходит, — с задержкой в 0.03s
+   transition: fill 0.03s ease;
+   fill: #ffffff;
+   
+  }
+
+   .main-body:hover {
+   fill: #000000;
+   transition-delay: 0.05s;
+  }
+
+  .core {
+    transition: fill 0.03s ease;
+    fill: #ffffff;
+  
+  .core:hover {            
+    fill: #000000;
+  }
+*/
+
   .main-body:active {
     transition: fill 0.3s;
     fill: #FF0000;
