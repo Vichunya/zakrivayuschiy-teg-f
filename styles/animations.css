@@ -35,16 +35,25 @@
     transform: scaleX(1);
   }
 
-  .main-body:hover {
-   transition: fill 0.3s;
-   fill: blue;
-   transition-delay: 0.05s;
+.like-icon .main-body {
+ fill: white;
+}
+
+.like-icon .core {
+  fill: white;
   }
 
-  .core:hover {
+  .like-icon:hover .main-body {
     transition: fill 0.3s;
     fill: blue;
+    transition-delay: 0.05s;
   }
+  
+  .like-icon:hover .core {
+      transition: fill 0.3s;
+      fill: blue;
+    }
+  
 
 
  @keyframes menuButtons {
