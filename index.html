@@ -89,19 +89,18 @@
     
   </section>  
  
- <!-- <dialog class="dialog" aria-label="put floopy to continue" open> 
+ <dialog class="dialog" aria-label="put floopy to continue" id="dialog-id"> 
    <img class="floopy" alt="floopy" src="./svg/floppy.svg"> 
    <h2>Вставьте
     дискету, чтобы продолжить</h2> 
-    <button type="submit"
-            onclick="window['dialog-id'].show()"
+    <button type="button"
             onclick="window['dialog-id'].close()"
             aria-controls="dialog-id">OK</button>          
-  </dialog>  -->
+  </dialog>  
   
     </main>
     <footer class="footer">
-      <button class="footer_button">
+      <button class="footer_button" onclick="window['dialog-id'].show()">
       <img class="floopy" alt="floopy" src="./svg/floppy.svg">
       <span class="button__text">Сохранить на память</span>   <!-- в шаге 6 пункт 7-->
       </button>
