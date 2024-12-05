@@ -35,6 +35,12 @@
   transform: scaleX(1);
 }
 
+.card__icon-button:focus-visible {
+  /*контейнер с сердцем*/
+  border: 2px solid;
+  border-color: #000000; 
+  transition: border-color 0.3s ease;
+}
 
 
 .like-icon:hover .main-body {
