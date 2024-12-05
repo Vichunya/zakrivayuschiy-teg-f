@@ -119,10 +119,10 @@
 
  @keyframes animationHeart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
   0% {
-    transition: scale(1)
+    transform: scale(1);
   }
   100% {                            
-    transition: scale(1.5)
+    transform: scale(1.5);
   }
  }  
 
