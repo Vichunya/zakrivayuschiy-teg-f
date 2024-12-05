@@ -129,6 +129,7 @@
  .like-icon.is-liked .heart {
   animation: animationHeart 0.3s ease-in alternate;   
   animation-delay: 0.1s;
+  transform-origin: center;
  }
 
 
