@@ -16,13 +16,15 @@
 .page {
   min-inline-size: 320px;
   font-family: var(--main-font), sans-serif;
-  background-image: repeating-linear-gradient(90deg, var(--repeating-gradient-color) 0 2px, transparent 2px 4px),  
-                    repeating-linear-gradient(180deg, var(--repeating-gradient-color) 0 2px, transparent 2px 4px),
-                    linear-gradient(var(--gradient-color-start) 0.01%, var(--gradient-color-end)); 
-  background-attachment: fixed;                  /*чтобы градиент не двигался*/
-                  }
+  background-image: repeating-linear-gradient(90deg, var(--repeating-gradient-color) 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, var(--repeating-gradient-color) 0 2px, transparent 2px 4px),
+    linear-gradient(var(--gradient-color-start) 0.01%, var(--gradient-color-end));
+  background-attachment: fixed;
+  /*чтобы градиент не двигался*/
+}
 
-.header {                                  /*ф-ии для вариативного*/
+.header {
+  /*ф-ии для вариативного*/
   display: flex;
   flex-direction: column;
   border: 2px solid var(--border-color);
@@ -36,58 +38,60 @@
   color: var(--text-color);
 }
 
-.header_content {                   
+.header_content {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: var(--accent-font);
-  }
+}
 
-  .title {
-    font-size: 65px;
-  }
+.title {
+  font-size: 65px;
+}
 
-  .subtitle {
-    font-size: 23px;   
-    margin-top: 20px;
-  }
+.subtitle {
+  font-size: 23px;
+  margin-top: 20px;
+}
 
-  .theme-menu__item {
-    font-size: 14px;
- }
+.theme-menu__item {
+  font-size: 14px;
+}
 
- .theme-menu__button {       /*три кнопки*/
+.theme-menu__button {
+  /*три кнопки*/
   background-color: transparent;
   border: none;
   position: relative;
- }
+}
 
- .theme-menu__button:focus {
-  outline: none;      
- }
+.theme-menu__button:focus {
+  outline: none;
+}
 
- .theme-menu__button:focus-visible {
-   border: none;
- }
+.theme-menu__button:focus-visible {
+  border: none;
+}
 
- .theme-menu__button:disabled {     /*серое состояние после нажатия, это стиль для кнопки на которую кликаем*/ 
-  color: var(--button-disabled-color);   
- }
+.theme-menu__button:disabled {
+  /*серое состояние после нажатия, это стиль для кнопки на которую кликаем*/
+  color: var(--button-disabled-color);
+}
 
-  .theme-menu__button:disabled:before  {  
-   content: "▶";
-   position: absolute;
-   left: -15px;
-  }
+.theme-menu__button:disabled:before {
+  content: "▶";
+  position: absolute;
+  left: -15px;
+}
 
-  .theme-menu__list {
-    display: flex;
-    flex-direction: column;
-    gap: 14px; 
-    margin-top: 25px;
-  }
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 25px;
+}
 
- .main {
+.main {
   display: flex;
   flex-direction: column;
   width: 696px;
@@ -97,149 +101,164 @@
   color: var(--text-color);
 }
 
- .title_preparation {
-  font-family: "Inter", sans-serif;  
+.title_preparation {
+  font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 18px;   
+  font-size: 18px;
   line-height: 21.78px;
   margin-left: 10px;
- }
+}
 
-  .card {
-   display: flex;
-   flex-direction: column;
-   border: 2px solid var(--border-color);
-   background-color: var(--background-color);
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--border-color);
+  background-color: var(--background-color);
+}
 
-  .card_container {
-    display: flex;
-    flex-direction: column; 
-    gap: 27px;
-  }
+.card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
 
-  .text {   
-  margin-left: 25px;  
+.text {
+  margin-left: 25px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  }
-
-  .button_container{
-    display: flex;
-    align-self: end;  /*работает и без флекса, display block - по умолчанию*/
-    margin-top: 25px; 
-    margin-right: 25px;
-    margin-bottom: 25px;
-    gap: 12px;
-  }
-
-  .button__text {
-    color: #ffffff;  /*начальный цвет текста - черный */
-    position: relative;
-    z-index: 10;
-    mix-blend-mode: difference;
 }
 
-  .like-icon {
-    margin-top: 9px;
-  }
+.button_container {
+  display: flex;
+  align-self: end;
+  /*работает и без флекса, display block - по умолчанию*/
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  gap: 12px;
+}
 
-  .card__icon-button {
-    border: none;
-    background-color: transparent;
-    padding: 0px;
+.button__text {
+  color: #ffffff;
+  /*начальный цвет текста - черный */
+  position: relative;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
 
-  }
+.like-icon {}
 
-  .card__like-button {            /*LIKE button*/
-    border: 2px solid var(--border-color);     
-    width: 130px;
-    height: 38px;
-    background-color: var(--background-color);
-    font-family: var(--accent-font);
-    font-size: 14px;
-    position: relative; 
-  }
+.card__icon-button {
+  border: 2px solid transparent; 
+  background-color: transparent;
+  padding: 0px;
+  height: 38px;
+}
 
-  
-
-  .card__like-button:focus{
-    outline: none;
-    }
-
-  .card__like-button:focus-visible {
-    box-shadow: 2px 2px var(--box-shadow-color);
-    }
-
-  .card__icon-button:hover {   /*сердце*/ 
-    cursor: pointer;
-  }
-
-  .card__icon-button:focus-visible {   /*сердце*/ 
-    outline: none; 
-  }
-
-  .card__icon-button:active {   /*сердце*/  /* зажать ?*/
-    /* color:#000; */
-  }
-
-  .sparks {
-    opacity: 0;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: center;
-    width: 335px;
-    height: 51px;
-    font-family: var(--accent-font);
-    font-size: 14px;              
-    border: 2px solid var(--border-color);
-    justify-self: center;   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
-    margin-top: 50px;
-    background-color: var(--background-color); 
-    margin-bottom: 103px;
-  }
-     
-  .footer_button {     
-   display: flex;
-   align-items: center;
-   gap: 8px;
-   color: var(--text-color);
-  }  
+.card__like-button {
+  /*LIKE button*/
+  border: 2px solid var(--border-color);
+  width: 130px;
+  height: 38px;
+  background-color: var(--background-color);
+  font-family: var(--accent-font);
+  font-size: 14px;
+  position: relative;
+}
 
 
-  
-  .floopy {
-    width: 21px;              
-    height: 21px; 
-    mix-blend-mode: difference;
-  }
 
-  .dialog::backdrop {
-   background-color: rgb(0 0 0/ 0.3);
-   backdrop-filter: blur(7px);           
-  } 
+.card__like-button:focus {
+  outline: none;
+}
 
-@media (width <= 375px) {   
-  
-  .header { 
+.card__like-button:focus-visible {
+  box-shadow: 2px 2px var(--box-shadow-color);
+}
+
+.card__icon-button:focus {
+  /*контейнер с сердцем*/
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  /*контейнер с сердцем*/
+  border: 2px solid #000000; 
+}
+
+.card__icon-button .card__like-button {
+  border: 2px solid transparent;
+  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
+}
+
+.card__icon-button:hover {
+  /*сердце*/
+  cursor: pointer;
+}
+
+.card__icon-button:focus-visible {
+  /*сердце*/
+  outline: none;
+}
+
+.sparks {
+  opacity: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 335px;
+  height: 51px;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  border: 2px solid var(--border-color);
+  justify-self: center;
+  /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
+  margin-top: 50px;
+  background-color: var(--background-color);
+  margin-bottom: 103px;
+}
+
+.footer_button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-color);
+}
+
+
+
+.floopy {
+  width: 21px;
+  height: 21px;
+  mix-blend-mode: difference;
+}
+
+.dialog::backdrop {
+  background-color: rgb(0 0 0/ 0.3);
+  backdrop-filter: blur(7px);
+}
+
+@media (width <=375px) {
+
+  .header {
     width: 375px;
-          } 
+  }
 
   .main {
     width: 375px;
-  }        
-      
+  }
+
   .main_picture {
     width: 375px;
   }
-  
+
   .title {
     font-size: 49px;
   }
-        
+
 }
 
 /* SVG в футере у меня через img ? Но я увидела и другую запись...
@@ -247,4 +266,3 @@
 <svg class="floopy" width="21" height="21" viewport="0 0 21 21">
 <use href="./svg/floopy...."></use>
 */
-

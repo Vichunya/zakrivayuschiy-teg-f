@@ -15,56 +15,46 @@
 
 
 .card__like-button:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
-  .card__like-button:before {
-    content: "";
-    position: absolute;
-    width: 100%; 
-    height: 100%; 
-    background-color: black;
-    transform: scaleX(0);
-    transition: transform 1s ease-out;
-    left: 0px;
-    top: 0px;
-    transform-origin: left;
-  } 
+.card__like-button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 1s ease-out;
+  left: 0px;
+  top: 0px;
+  transform-origin: left;
+}
 
-  .card__like-button:hover:before {
-    transform: scaleX(1);
-  }
+.card__like-button:hover:before {
+  transform: scaleX(1);
+}
 
-  .card__icon-button:focus {    /*контейнер с сердцем*/
-   outline: none;
-  }
 
-  .card__icon-button:focus-visible {    /*контейнер с сердцем*/
-    outline: 2px solid #000000;
-   }
 
-  .card__icon-button .card__like-button {
-    outline: 2px solid transparent;  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
-   } 
- 
-  .like-icon:hover .main-body {
-   transition: fill 0.3s;
-   fill: #000000;
-   transition-delay: 0.05s;
-  }
+.like-icon:hover .main-body {
+  transition: fill 0.3s;
+  fill: #000000;
+  transition-delay: 0.05s;
+}
 
-  .main-body {
-    fill: #ffffff;
-  }
+.main-body {
+  fill: #ffffff;
+}
 
-  .like-icon:hover .core {
-    transition: fill 0.3s;
-    fill: #000000;
-  }
+.like-icon:hover .core {
+  transition: fill 0.3s;
+  fill: #000000;
+}
 
-  .core {
-    fill: #ffffff;
-  }
+.core {
+  fill: #ffffff;
+}
 
 /*
    .main-body {                            в обратной ситуации, когда курсор уходит, — с задержкой в 0.03s
@@ -87,77 +77,87 @@
   }
 */
 
- .like-icon:active .main-body {
-    transition: fill 0.3s;
-    fill: #FF0000;
-    transition-delay: 0.05s;
-   }
- 
-   .like-icon:active .core {
-     transition: fill 0.3s;
-     fill: #FF0000;
-   }
+.like-icon:active .main-body {
+  transition: fill 0.3s;
+  fill: #FF0000;
+  transition-delay: 0.05s;
+}
 
-   .like-icon.is-liked .core {              /*как при Active указано в шагах*/  /* Клик */
-    transition: fill 0.3s;
-    fill: #FF0000;
-   }
+.like-icon:active .core {
+  transition: fill 0.3s;
+  fill: #FF0000;
+}
 
-   .like-icon.is-liked .main-body {        /*как при Active указано в шагах*/    /* Клик */
-    transition: fill 0.3s;
-    fill: #FF0000;
-    transition-delay: 0.05s;
-   }
+.like-icon.is-liked .core {
+  /*как при Active указано в шагах*/
+  /* Клик */
+  transition: fill 0.3s;
+  fill: #FF0000;
+}
 
-   .like-icon.is-liked .contour {
-    transition: fill 0.3s;
-    fill: #FF0000;
-    transition-delay: 0.06s;   /* контур перекрашивается с задержкой 0.06s*/
-   }
+.like-icon.is-liked .main-body {
+  /*как при Active указано в шагах*/
+  /* Клик */
+  transition: fill 0.3s;
+  fill: #FF0000;
+  transition-delay: 0.05s;
+}
 
- 
+.like-icon.is-liked .contour {
+  transition: fill 0.3s;
+  fill: #FF0000;
+  transition-delay: 0.06s;
+  /* контур перекрашивается с задержкой 0.06s*/
+}
 
- @keyframes animationHeart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
+
+
+@keyframes animationHeart {
+
+  /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
   0% {
     transform: scale(1);
   }
-  100% {                            
+
+  100% {
     transform: scale(1.5);
   }
- }  
+}
 
- .like-icon.is-liked .heart {
-  animation: animationHeart 0.3s ease-in alternate;   
+.like-icon.is-liked .heart {
+  animation: animationHeart 0.3s ease-in alternate;
   animation-delay: 0.1s;
   transform-origin: center;
- }
+}
 
 
- @keyframes animationSparks {
+@keyframes animationSparks {
   0% {
     opacity: 0;
   }
-  100% {
-    opacity: 1; 
-  }
- }
 
- .like-icon.is-liked .sparks {
+  100% {
+    opacity: 1;
+  }
+}
+
+.like-icon.is-liked .sparks {
   animation: animationSparks 0.3s ease-in alternate;
   animation-delay: 0.3s;
- }
+}
 
 
- @keyframes menuButtons {
-    0% {                          /*start position, start animation*/
-      transform: translateX(0px);
-    }
-
-    100% {
-      transform: translateX(-10px); 
-    }
+@keyframes menuButtons {
+  0% {
+    /*start position, start animation*/
+    transform: translateX(0px);
   }
-  
-  .theme-menu__button:disabled:before {
-    animation: menuButtons 1s linear infinite alternate;
+
+  100% {
+    transform: translateX(-10px);
   }
+}
+
+.theme-menu__button:disabled:before {
+  animation: menuButtons 1s linear infinite alternate;
+}
