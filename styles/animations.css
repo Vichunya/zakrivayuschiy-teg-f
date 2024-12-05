@@ -47,15 +47,23 @@
     outline: 2px solid transparent;  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
    } 
  
-  .main-body:hover {
+  .like-icon:hover .main-body {
    transition: fill 0.3s;
    fill: #000000;
    transition-delay: 0.05s;
   }
 
-  .core:hover {
+  .main-body {
+    fill: #ffffff;
+  }
+
+  .like-icon:hover .core {
     transition: fill 0.3s;
     fill: #000000;
+  }
+
+  .core {
+    fill: #ffffff;
   }
 
 /*
