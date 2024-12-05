@@ -232,7 +232,7 @@
   mix-blend-mode: difference;
 }
 
-.dialog:backdrop {
+.dialog-window::backdrop { 
   background-color: rgb(0 0 0/ 0.3);
   backdrop-filter: blur(7px);
 }
@@ -257,8 +257,3 @@
 
 }
 
-/* SVG в футере у меня через img ? Но я увидела и другую запись...
-<button type="button" class="footer__button"> 
-<svg class="floopy" width="21" height="21" viewport="0 0 21 21">
-<use href="./svg/floopy...."></use>
-*/
