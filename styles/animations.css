@@ -35,25 +35,108 @@
     transform: scaleX(1);
   }
 
-.like-icon .main-body {
- fill: white;
-}
-
-.like-icon .core {
-  fill: white;
+  .card__icon-button:focus {    /*контейнер с сердцем*/
+   outline: none;
   }
 
-  .like-icon:hover .main-body {
+  .card__icon-button:focus-visible {    /*контейнер с сердцем*/
+    outline: 2px solid #000000;
+   }
+
+  .card__icon-button .card__like-button {
+    outline: 2px solid transparent;  /*в шаге, чтобы сделать высоту границы одинаковой, но сами элементы стоят не ровно */
+   } 
+ 
+  .main-body:hover {
+   transition: fill 0.3s;
+   fill: #000000;
+   transition-delay: 0.05s;
+  }
+
+  .core:hover {
     transition: fill 0.3s;
-    fill: blue;
-    transition-delay: 0.05s;
+    fill: #000000;
   }
+
+/*
+   .main-body {                            в обратной ситуации, когда курсор уходит, — с задержкой в 0.03s
+   transition: fill 0.03s ease;
+   fill: #ffffff;
+   
+  }
+
+   .main-body:hover {
+   fill: #000000;
+   transition-delay: 0.05s;
+  }
+
+  .core {
+    transition: fill 0.03s ease;
+    fill: #ffffff;
   
-  .like-icon:hover .core {
-      transition: fill 0.3s;
-      fill: blue;
-    }
-  
+  .core:hover {            
+    fill: #000000;
+  }
+*/
+
+  .main-body:active {
+    transition: fill 0.3s;
+    fill: #FF0000;
+    transition-delay: 0.05s;
+   }
+ 
+   .core:active {
+     transition: fill 0.3s;
+     fill: #FF0000;
+   }
+
+   .like-icon.is-liked .core {              /*как при Active указано в шагах*/  /* Клик */
+    transition: fill 0.3s;
+    fill: #FF0000;
+   }
+
+   .like-icon.is-liked .main-body {        /*как при Active указано в шагах*/    /* Клик */
+    transition: fill 0.3s;
+    fill: #FF0000;
+    transition-delay: 0.05s;
+   }
+
+   .like-icon.is-liked .contour {
+    transition: fill 0.3s;
+    fill: #FF0000;
+    transition-delay: 0.06s;   /* контур перекрашивается с задержкой 0.06s*/
+   }
+
+ 
+
+ @keyframes animationHeart {                /*через 0.1s после появления класса is-liked в разметке. Длиться масштабирование должно 0.3s с с плавностью ease-in*/
+  0% {
+    transition: scale(1)
+  }
+  100% {                            
+    transition: scale(1.5)
+  }
+ }  
+
+ .like-icon.is-liked .heart {
+  animation: animationHeart 0.3s ease-in alternate;   
+  animation-delay: 0.1s;
+ }
+
+
+ @keyframes animationSparks {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+ }
+
+ .like-icon.is-liked .sparks {
+  animation: animationSparks 0.3s ease-in alternate;
+  animation-delay: 0.3s;
+ }
 
 
  @keyframes menuButtons {
