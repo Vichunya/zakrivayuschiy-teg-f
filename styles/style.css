@@ -99,6 +99,7 @@
   justify-self: center;
   margin-top: 102px;
   color: var(--text-color);
+  /*position: relative; */
 }
 
 .title_preparation {
@@ -231,11 +232,26 @@
   mix-blend-mode: difference;
 }
 
-.dialog-window:backdrop {                  /* диалоговое окно не в том месте открывается*/
+.dialog-window:backdrop {                  
   background-color: rgb(0 0 0/ 0.3);
   backdrop-filter: blur(7px);
 }
 
+.dialog-window {        /*как только сделала флекс и хотела выровнить, окно перестало закрываться по кнопке*/
+  width: 353px;
+  height: 191px;
+  /* position: absolute;       относительно чего ? если main, то не так
+  top: 384.5px;               
+  left: 543.5px; */
+  /*display: flex;
+  flex-direction: column; */
+}
+
+/*.button_on_modal {
+  width: 293px;
+  height: 38px; 
+}
+*/
 @media (width <=375px) {
 
   .header {
