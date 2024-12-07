@@ -46,7 +46,7 @@
 }
 
 .title {
-  font-size: 65px;
+  font-size: 65px;    /*использовала функцию перевода clamp(0.875rem, -0.2474rem + 4.7887vw, 4.0625rem), щрифт не тот */
 }
 
 .subtitle {
