@@ -12,4 +12,6 @@
     --text-color: #000000;
     --menu-button-hover: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
+    --button-text-color: #fff;
+    --button-background-color: #000;
 } 

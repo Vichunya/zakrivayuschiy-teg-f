@@ -141,7 +141,7 @@
 }
 
 .button__text {
-  color: #ffffff;
+  color: var(--button-text-color);
   /*начальный цвет текста - черный */
   position: relative;
   z-index: 10;
