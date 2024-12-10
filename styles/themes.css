@@ -24,6 +24,7 @@
     --button-background-color: #000;
     --fill-contour-color: #000;
     --fill-main-body-color: #fff;
+    --fill-core-color: #fff;
 } 
 
 :root.theme-dark {
@@ -43,6 +44,7 @@
     --button-background-color: #00cc14;
     --fill-contour-color: #00cc14;
     --fill-main-body-color: #000;
+    --fill-core-color: #000;
     
 }
 
@@ -65,6 +67,7 @@
         --button-background-color: #00cc14;
         --fill-contour-color: #00cc14;
         --fill-main-body-color: #000;
+        --fill-core-color: #000;
     }
 }
 
@@ -84,5 +87,6 @@
     --button-background-color: #000;
     --fill-contour-color: #000;
     --fill-main-body-color: #fff;
+    --fill-core-color: #fff;
     }
 }
