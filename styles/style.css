@@ -233,7 +233,7 @@
 .floopy {
   width: 21px;
   height: 21px;
-  mix-blend-mode: difference;
+  fill: var(--text-color);
 }
 
 .dialog-window:backdrop {                  

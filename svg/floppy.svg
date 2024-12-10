@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" fill="white" viewBox="0 0 29 28">
+<svg  xmlns="http://www.w3.org/2000/svg" width="29" height="28" fill="white" viewBox="0 0 29 28">
+<symbol id="floopy">
   <path d="M.5 0h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5z"/>
   <path d="M.5 8.615h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5z"/>
   <path d="M.5 21.538h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154V28H.5zM24.193 0v2.154h-2.154V0z"/>
@@ -23,4 +24,5 @@
   <path d="M28.5 15.077h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5z"/>
   <path d="M28.5 10.771h-2.154V8.617H28.5zm0-2.156h-2.154V6.461H28.5z"/>
   <path d="M28.5 6.462h-2.154V4.308H28.5z"/>
+  </symbol>
 </svg>
