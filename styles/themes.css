@@ -22,6 +22,8 @@
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --button-text-color: #fff;
     --button-background-color: #000;
+    --fill-contour-color: #000;
+    --fill-main-body-color: #fff;
 } 
 
 :root.theme-dark {
@@ -39,6 +41,8 @@
     --button-disabled-color: rgb(0, 204, 20, 0.6);
     --button-text-color: #00CC14;
     --button-background-color: #00cc14;
+    --fill-contour-color: #00cc14;
+    --fill-main-body-color: #000;
     
 }
 
@@ -59,6 +63,8 @@
         --button-disabled-color: rgb(0, 204, 20, 0.6);
         --button-text-color: #00CC14;
         --button-background-color: #00cc14;
+        --fill-contour-color: #00cc14;
+        --fill-main-body-color: #000;
     }
 }
 
@@ -76,5 +82,7 @@
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --button-text-color: #fff;
     --button-background-color: #000;
+    --fill-contour-color: #000;
+    --fill-main-body-color: #fff;
     }
 }

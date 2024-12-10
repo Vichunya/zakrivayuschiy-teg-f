@@ -14,4 +14,6 @@
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --button-text-color: #fff;
     --button-background-color: #000;
+    --fill-contour-color: #000;
+    --fill-main-body-color: #fff;
 } 

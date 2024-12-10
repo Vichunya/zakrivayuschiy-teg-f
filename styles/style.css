@@ -197,6 +197,14 @@
   outline: none;
 }
 
+.contour {
+  fill: var(--fill-contour-color);
+}
+
+.main-body {
+  fill: var(--fill-main-body-color);
+}
+
 .sparks {
   opacity: 0;
 }
