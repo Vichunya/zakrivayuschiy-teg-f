@@ -50,7 +50,7 @@
 }
 
 .main-body {
-  fill: #ffffff;
+  fill: var(--fill-main-body-color);
   transition: fill 0.3s ease;
 }
 
