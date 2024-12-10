@@ -20,13 +20,13 @@
     --gradient-color-end: #1a1a1a;
     --menu-button-hover-light: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
-    --color: #000000; 
 } 
 
 :root.theme-dark {
     --background-color: #000000; 
     --border-color: #00CC14;     
     --color: #00CC14;    
+ 
     --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
     --text-color: #00CC14;
     --box-shadow-color: #00CC14;
@@ -44,6 +44,7 @@
         --background-color: #000000; 
         --border-color: #00CC14;     
         --color: #00CC14;    
+     
         --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
         --text-color: #00CC14;
         --box-shadow-color: #00CC14;
@@ -67,6 +68,5 @@
     --gradient-color-end: #1a1a1a;
     --menu-button-hover: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
-    --color: #000000; 
     }
 }

@@ -132,16 +132,17 @@
 
 .button_container {
   display: flex;
-  align-self: end;  /*работает и без флекса, display block - по умолчанию*/
+  align-self: end;
+  /*работает и без флекса, display block - по умолчанию*/
   margin-top: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
   gap: 12px;
-  color: var(--color); 
 }
 
 .button__text {
-  color: var(--color); /*начальный цвет текста - черный */ /* меняется в темной, а в светлой текст исчезает*/
+  color: #ffffff;
+  /*начальный цвет текста - черный */
   position: relative;
   z-index: 10;
   mix-blend-mode: difference;
