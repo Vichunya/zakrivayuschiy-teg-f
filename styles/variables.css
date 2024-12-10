@@ -13,7 +13,7 @@
     --menu-button-hover: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --color: #000000; 
-    /*--fill-color: #000000; */
-   /* --fill-heart-main-body: #ffffff;*/
+    --fill-color: #000000;
+    --fill-heart-main-body: #ffffff;
     /* --floopy-fill: #ffffff; */
 } 
