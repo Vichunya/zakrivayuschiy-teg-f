@@ -137,6 +137,7 @@
   margin-right: 25px;
   margin-bottom: 25px;
   gap: 12px;
+  color: var(--color); 
 }
 
 .button__text {
@@ -146,16 +147,11 @@
   mix-blend-mode: difference;
 }
 
-.card__icon-button {     /*контейнер с сердцем*/
+.card__icon-button {
   border: 2px solid transparent; 
   background-color: transparent;
   padding: 0px;
   height: 38px;
-  fill: var(--fill-color);  /* не закрашивает*/
-}
-
-.main-body: {         /*основная часть сердца*/
-  var(--fill-heart-main-body);  /* не закрашивает*/
 }
 
 .card__like-button {

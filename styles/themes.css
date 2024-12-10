@@ -21,9 +21,6 @@
     --menu-button-hover-light: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --color: #000000; 
-    --fill-color: #000000;
-    --fill-heart-main-body: #ffffff;
-    /* --floopy-fill: #ffffff; */
 } 
 
 :root.theme-dark {
@@ -38,9 +35,6 @@
     --gradient-color-end: #004306;    
     --menu-button-hover: rgb(0, 204, 20, 0.6);
     --button-disabled-color: rgb(0, 204, 20, 0.6);
-    --fill-color: #00CC14;
-    --fill-heart-main-body: #000000;
-    /* --floopy-fill: #00CC14; */ 
     
 }
 
@@ -58,9 +52,6 @@
         --gradient-color-end: #004306;    
         --menu-button-hover: rgb(0, 204, 20, 0.6);
         --button-disabled-color: rgb(0, 204, 20, 0.6);
-        --fill-color: #00CC14;
-        --fill-heart-main-body: #000000;
-        /* --floopy-fill: #00CC14; */ 
     }
 }
 
@@ -77,8 +68,5 @@
     --menu-button-hover: rgb(0, 0, 0, 0.6);
     --button-disabled-color: rgb(0, 0, 0, 0.6);
     --color: #000000; 
-    --fill-color: #000000;
-    --fill-heart-main-body: #ffffff;
-    /* --floopy-fill: #ffffff; */
     }
 }
