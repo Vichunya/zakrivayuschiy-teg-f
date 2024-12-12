@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.footer_button {
+  
+}
+
 .card__like-button:before {
   content: "";
   position: absolute;
