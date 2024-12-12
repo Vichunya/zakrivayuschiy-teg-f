@@ -102,6 +102,17 @@
   /*position: relative; */
 }
 
+.card_container {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  color: red;
+  top: 25px;
+  right: 25px;
+}
+
 .title_preparation {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -244,7 +255,7 @@
 .dialog-window[open] {        
   width: 353px;
   height: 191px;
-  display: flex;
+  display: flex;               /* выравнить надо и для темной темы*/
   flex-direction: column;
 }
 
