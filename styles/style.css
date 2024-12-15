@@ -103,8 +103,18 @@
 
 .card_container {
   position: relative;
+  /* display: flex;
+  gap: 50px;   */
+}
+
+.card {
+  /* display: flex;  не там отступ
+  gap: 50px; */    
+}
+
+.main {
   display: flex;
-  gap: 50px;    /* ? */
+  gap: 50px;    
 }
 
 .main_picture {
