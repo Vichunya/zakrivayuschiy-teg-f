@@ -103,6 +103,13 @@
 
 .card_container {
   position: relative;
+  display: flex;
+  gap: 50px;    /**/
+}
+
+.main_picture {
+  width: 696px;
+  height: 696px;
 }
 
 .label {
