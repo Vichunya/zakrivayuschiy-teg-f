@@ -108,8 +108,21 @@
 .label {
   position: absolute;
   color: red;
+  /* mix-blend-mode: hard-light; */
   top: 25px;
   right: 25px;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-weight: 400px;
+  text-shadow: -1px 0 rgb(0 0 0/ 0.5), 0 1px rgb(0 0 0/ 0.5), 1px 0 rgb(0 0 0/ 0.5), 0 -1px rgb(0 0 0/ 0.5);
+}
+
+@supports((text-stroke: 1px rgb(0 0 0/ 0.5)) or (-webkit-text-stroke: 1px rgb(0 0 0/ 0.5))) {
+  p {
+    -webkit-text-stroke: 1px #000000;
+    text-stroke: 1px #000000;
+    text-shadow: none;
+  }
 }
 
 .title_preparation {
@@ -269,6 +282,8 @@
 .button_on_modal {   /* не применяются */
   width: 293px;
   height: 38px; 
+  background-color: var(--button-ok-background-color); /* не применяется*/ 
+  border-color: var(--border-color-ok-button);
 }
 
 .floopy_and_text {   /* дискета и вставить дискету */
