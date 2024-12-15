@@ -25,6 +25,8 @@
     --fill-contour-color: #000;
     --fill-main-body-color: #fff;
     --fill-core-color: #fff;
+    --background-color-modal-window: #fff;
+    --color-modal-window: #000;
 } 
 
 :root.theme-dark {
@@ -45,6 +47,8 @@
     --fill-contour-color: #00cc14;
     --fill-main-body-color: #000;
     --fill-core-color: #000;
+    --background-color-modal-window: #000;
+    --color-modal-window: #00cc14;
     
 }
 
@@ -68,6 +72,8 @@
         --fill-contour-color: #00cc14;
         --fill-main-body-color: #000;
         --fill-core-color: #000;
+        --background-color-modal-window: #000;
+        --color-modal-window: #00cc14;
     }
 }
 
@@ -88,5 +94,7 @@
     --fill-contour-color: #000;
     --fill-main-body-color: #fff;
     --fill-core-color: #fff;
+    --background-color-modal-window: #fff;
+    --color-modal-window: #000;
     }
 }

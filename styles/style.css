@@ -99,7 +99,6 @@
   justify-self: center;
   margin-top: 102px;
   color: var(--text-color);
-  /*position: relative; */
 }
 
 .card_container {
@@ -257,6 +256,9 @@
   height: 191px;
   display: flex;               /* выравнить надо и для темной темы*/
   flex-direction: column;
+  gap: 30px;
+  background-color: var(--background-color-modal-window);
+  color: var(--color-modal-window);
 }
 
 .floopy-modal {
@@ -264,11 +266,26 @@
   height: 39px; 
 }
 
-/*.button_on_modal {
+.button_on_modal {   /* не применяются */
   width: 293px;
   height: 38px; 
 }
-*/
+
+.floopy_and_text {   /* дискета и вставить дискету */
+  display: flex;
+  /*width: 293px;
+  height: 63px; */
+  font-family: "PressStart2P";  
+  font-size: 14px;   /* не применяется*/
+  font-weight: 400; /* не применяется*/
+  line-height: 21px;
+}
+
+.put_floopy_text {   /* вставить дискету */
+  margin-left: 30px;
+}
+
+
 @media (width <=375px) {
 
   .header {
