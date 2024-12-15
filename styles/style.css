@@ -163,6 +163,10 @@
   gap: 27px;
 }
 
+.picture_boat {
+  filter: opacity(0.8);
+}
+
 .text {
   margin-left: 25px;
   font-size: 18px;
