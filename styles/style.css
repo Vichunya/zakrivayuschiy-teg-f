@@ -303,8 +303,7 @@
 
 .floopy_and_text {   /* дискета и вставить дискету */
   display: flex;
-  /*width: 293px;
-  height: 63px; */
+  gap: 20px;
   font-family: "PressStart2P";  
   font-size: 14px;   /* не применяется*/
   font-weight: 400; /* не применяется*/
@@ -312,7 +311,7 @@
 }
 
 .put_floopy_text {   /* вставить дискету */
-  margin-left: 30px;
+  width: 234px;
 }
 
 
