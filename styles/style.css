@@ -117,8 +117,9 @@
 
 .label {
   position: absolute;
-  color: red;
-  /* mix-blend-mode: hard-light; */
+  color: rgb(0 0 0);
+  opacity: 0.5; 
+  mix-blend-mode: hard-light; 
   top: 25px;
   right: 25px;
   font-family: var(--accent-font);
