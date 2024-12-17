@@ -117,6 +117,7 @@
 
 .label {
   position: absolute;
+  z-index: 1;
   color: rgb(0 0 0);
   opacity: 0.5; 
   mix-blend-mode: hard-light; 
@@ -125,13 +126,13 @@
   font-family: var(--accent-font);
   font-size: 14px;
   font-weight: 400px;
-  text-shadow: -1px 0 rgb(0 0 0/ 0.5), 0 1px rgb(0 0 0/ 0.5), 1px 0 rgb(0 0 0/ 0.5), 0 -1px rgb(0 0 0/ 0.5);
+  text-shadow: -1px 0 rgb(255 255 255), 0 1px rgb(255 255 255), 1px 0 rgb(255 255 255), 0 -1px rgb(255 255 255);
 }
 
-@supports((text-stroke: 1px rgb(0 0 0/ 0.5)) or (-webkit-text-stroke: 1px rgb(0 0 0/ 0.5))) {
+@supports((text-stroke: 1px rgb(255 255 255)) or (-webkit-text-stroke: 1px rgb(255 255 255))) {
   .label {
-    -webkit-text-stroke: 1px #000000;
-    text-stroke: 1px #000000;
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
     text-shadow: none;
   }
 }
