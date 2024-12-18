@@ -178,6 +178,10 @@
   filter: grayscale(0.8);
 }
 
+.picture_boat_many_thing {
+  filter: sepia(80%);
+}
+
 .text {
   margin-left: 25px;
   margin-right: 25px;
