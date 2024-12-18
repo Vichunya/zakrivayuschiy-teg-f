@@ -182,6 +182,10 @@
   filter: sepia(80%);
 }
 
+.picture_boat_now_here {
+  filter: invert(0.7) brightness(120%);
+}
+
 .text {
   margin-left: 25px;
   margin-right: 25px;
