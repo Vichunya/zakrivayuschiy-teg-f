@@ -166,6 +166,10 @@
   filter: blur(0.5rem);
 }
 
+.picture_boat_chase_of_ideal {
+  filter: brightness(120%);
+}
+
 .text {
   margin-left: 25px;
   margin-right: 25px;
