@@ -170,6 +170,10 @@
   filter: brightness(120%);
 }
 
+.picture_boat_not_alone {
+  filter: contrast(30%);
+}
+
 .text {
   margin-left: 25px;
   margin-right: 25px;
