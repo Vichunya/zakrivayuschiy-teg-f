@@ -43,7 +43,7 @@
   /*контейнер с сердцем*/
   border: 2px solid;
   border-color: var(--border-color);   
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s linear;   /* то есть transition добавить к .card__icon-button ?  */
 }
 
 
