@@ -10,8 +10,8 @@
     font-family: "Inter"; 
     font-display: swap;
     font-weight: 400 785;    /*min max значение*/ 
-    src: local("Inter"), url("../fonts/Inter-Variable.woff2") format("woff2 supports variations"), 
-    url("../fonts/Inter-Variable.woff2") format('woff2-variations');
+    src: local("Inter"), url("Inter-Variable.woff2") format("woff2 supports variations"), 
+    url("Inter-Variable.woff2") format('woff2-variations');
   }
   
 
