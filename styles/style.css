@@ -29,7 +29,7 @@
   flex-direction: column;
   border: 2px solid var(--border-color);
   width: 700px;
-  height: 368px;
+  height: 368px;  /* написал убрать высоту, но когда убираю, блок сжимается*/
   justify-self: center;
   align-items: center;
   justify-content: center;
@@ -113,6 +113,8 @@
 .main_picture {
   width: 696px;
   height: 696px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .label {
