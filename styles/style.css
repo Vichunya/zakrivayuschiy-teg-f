@@ -160,31 +160,31 @@
   gap: 27px;
 }
 
-.picture_boat {
+.picture_filter_opacity {
   filter: opacity(0.8);
 }
 
-.picture_boat_first_project {
+.picture_filter_blur {
   filter: blur(0.5rem);
 }
 
-.picture_boat_chase_of_ideal {
+.picture_filter_brightness {
   filter: brightness(120%);
 }
 
-.picture_boat_not_alone {
+.picture_filter_contrast {
   filter: contrast(30%);
 }
 
-.picture_boat_third_sprint{
+.picture_filter_grayscale {
   filter: grayscale(0.8);
 }
 
-.picture_boat_many_thing {
+.picture_filter_sepia {
   filter: sepia(80%);
 }
 
-.picture_boat_now_here {
+.picture_filters_invert_brightness {
   filter: invert(0.7) brightness(120%);
 }
 
