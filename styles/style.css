@@ -222,7 +222,7 @@
 }
 
 .button {
-  border: 2px solid var(--border-color);    /* но у кнопки в футере  border: none; */
+  border: 2px solid var(--border-color);    /* у кнопки в футере  border: none; */
   background-color: var(--background-color);
 }
 
@@ -234,8 +234,6 @@
   font-size: 14px;
   position: relative;
 }
-
-
 
 .card__like-button:focus {
   outline: none;
