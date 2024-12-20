@@ -342,6 +342,7 @@
 
 .put_floopy_text {   /* вставить дискету */
   width: 234px;
+  text-transform: uppercase;
 }
 
 
