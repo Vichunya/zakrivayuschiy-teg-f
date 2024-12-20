@@ -21,6 +21,7 @@
     linear-gradient(var(--gradient-color-start) 0.01%, var(--gradient-color-end));
   background-attachment: fixed;
   /*чтобы градиент не двигался*/
+  outline: 1px solid red;
 }
 
 .header {
@@ -29,13 +30,14 @@
   flex-direction: column;
   border: 2px solid var(--border-color);
   width: 700px;
-  height: 368px;  /* написал убрать высоту, но когда убираю, блок сжимается*/
   justify-self: center;
   align-items: center;
   justify-content: center;
   background-color: var(--background-color);
   margin-top: 100px;
   color: var(--text-color);
+  padding-top: 136px;
+  padding-bottom: 25px;
 }
 
 .header_content {
@@ -63,6 +65,7 @@
   background-color: transparent;
   border: none;
   position: relative;
+  text-transform: uppercase;
 }
 
 .theme-menu__button:focus {
@@ -112,8 +115,7 @@
 
 .main_picture {
   width: 696px;
-  height: 696px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -145,6 +147,7 @@
   font-size: 18px;
   line-height: 21.78px;
   margin-left: 10px;
+  font-variation-settings: 'wght' var(--font-weight);
 }
 
 .card {
@@ -194,6 +197,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+  font-variation-settings: 'wght' var(----font-weight-text);
 }
 
 .button_container {   /* heart and like */
@@ -304,13 +308,11 @@
 }
 
 .dialog-window::backdrop {                  
-  background-color: rgb(0 0 0/ 0.3);
-  backdrop-filter: blur(7px);
+  background-color: rgb(0 0 0/ 0.75);
 }
 
 .dialog-window[open] {        
   width: 353px;
-  height: 191px;
   display: flex;               
   flex-direction: column;
   gap: 30px;

@@ -29,6 +29,8 @@
     --color-modal-window: #000;
     --button-ok-background-color: #fff;
     --border-color-ok-button: #000;
+    --font-weight: 700;
+    --font-weight-text: 400;
 } 
 
 :root.theme-dark {
@@ -53,6 +55,8 @@
     --color-modal-window: #00cc14;
     --button-ok-background-color: #000;
     --border-color-ok-button: #00cc14;
+    --font-weight: 785;
+    --font-weight-text: 465;
     
 }
 
@@ -80,8 +84,11 @@
         --color-modal-window: #00cc14;
         --button-ok-background-color: #000;
         --border-color-ok-button: #00cc14;
+        --font-weight: 785;
+        --font-weight-text: 465;
+} 
     }
-}
+
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -104,5 +111,8 @@
     --color-modal-window: #000;
     --button-ok-background-color: #fff;
     --border-color-ok-button: #000;
+    --font-weight: 700;
+    --font-weight-text: 400;
+    
     }
 }
