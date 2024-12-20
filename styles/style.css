@@ -224,6 +224,7 @@
 .button {
   border: 2px solid var(--border-color);    
   background-color: var(--background-color);
+  position: relative;
 }
 
 .card__like-button {
@@ -232,7 +233,6 @@
   height: 38px;
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
-  position: relative;
 }
 
 .card__like-button:focus {
@@ -273,12 +273,9 @@
 
 .save_button_container {
   display: flex;
-  justify-content: center;
-  width: 335px;
   height: 51px;
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
-  border: 2px solid var(--border-color);
   justify-self: center;  /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
   margin-top: 50px;
   background-color: var(--background-color);
@@ -288,9 +285,10 @@
 .save_button {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   color: var(--text-color);
-  border: none; 
+  width: 335px;
 }
 
 
@@ -299,6 +297,7 @@
   width: 21px;
   height: 21px;
   fill: var(--text-color);
+  /* mix-blend-mode: difference; */
 }
 
 .dialog-window::backdrop {                  

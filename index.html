@@ -435,7 +435,7 @@
     </section>
 
     <div class="save_button_container">
-      <button class="button save_button" type="submit" onclick="window['dialog-id'].showModal()">
+      <button class="button save_button" type="button" onclick="window['dialog-id'].showModal()">
         <svg class="floopy">
           <use href="./svg/floppy.svg#floopy" />
         </svg>
@@ -452,7 +452,9 @@
         <p class="put_floopy_text">Вставьте
           дискету, чтобы продолжить</p>
       </div>
-      <button class="button button_on_modal" type="submit" onclick="window['dialog-id'].close()" aria-controls="dialog-id">Ok</button>
+      <button class="button button_on_modal" type="submit" onclick="window['dialog-id'].close()" aria-controls="dialog-id">
+        <span class="button__text">Ok</span>
+      </button>
     </dialog>
 
   </main>
