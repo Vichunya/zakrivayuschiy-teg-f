@@ -13,13 +13,8 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-
 .card__like-button:hover {
   cursor: pointer;
-}
-
-.footer_button {
-  
 }
 
 .card__like-button:before {

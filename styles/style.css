@@ -196,8 +196,8 @@
   line-height: 21px;
 }
 
-.button_container {
-  display: flex;
+.button_container {   /* heart and like */
+  display: flex;    
   align-self: end;
   /*работает и без флекса, display block - по умолчанию*/
   margin-top: 25px;
@@ -214,19 +214,22 @@
   mix-blend-mode: difference;
 }
 
-.card__icon-button {
+.card__icon-button {          /* сердце */
   border: 2px solid transparent; 
   background-color: transparent;
   padding: 0px;
   height: 38px;
 }
 
+.button {
+  border: 2px solid var(--border-color);    /* но у кнопки в футере  border: none; */
+  background-color: var(--background-color);
+}
+
 .card__like-button {
   /*LIKE button*/
-  border: 2px solid var(--border-color);
   width: 130px;
   height: 38px;
-  background-color: var(--background-color);
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   position: relative;
@@ -289,7 +292,6 @@
   align-items: center;
   gap: 8px;
   color: var(--text-color);
-  background-color: var(--background-color);
   border: none; 
 }
 
@@ -312,7 +314,6 @@
   display: flex;               
   flex-direction: column;
   gap: 30px;
-  background-color: var(--background-color-modal-window);
   color: var(--color-modal-window);
   padding: 30px;
 }
@@ -324,10 +325,9 @@
 
 .button_on_modal {   
   height: 38px; 
-  background-color: var(--button-ok-background-color); 
-  border-color: var(--border-color-ok-button);
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .floopy_and_text {   /* дискета и вставить дискету */
