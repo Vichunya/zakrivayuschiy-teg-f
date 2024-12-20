@@ -291,13 +291,15 @@
   width: 335px;
 }
 
-
-
 .floopy {        /* for container works 21 21 */ 
   width: 21px;
   height: 21px;
   fill: var(--text-color);
-  /* mix-blend-mode: difference; */
+}
+
+.floopy_save_button {
+  mix-blend-mode: difference;
+  fill: var(--button-text-color);
 }
 
 .dialog-window::backdrop {                  
