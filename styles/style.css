@@ -219,6 +219,7 @@
   background-color: transparent;
   padding: 0px;
   height: 38px;
+  transition: border-color 0.3s linear; 
 }
 
 .button {

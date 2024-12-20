@@ -37,8 +37,7 @@
 .card__icon-button:focus-visible {
   /*контейнер с сердцем*/
   border: 2px solid;
-  border-color: var(--border-color);   
-  transition: border-color 0.3s linear;   /* то есть transition добавить к .card__icon-button ?  */
+  border-color: var(--border-color);     
 }
 
 
@@ -98,10 +97,9 @@
 }
 
 .like-icon .contour {
-  /* transition: fill 0.1s;
-  fill: #000; */
-}
-
+  transition: fill 0.3s;
+  fill: #000; 
+} 
 
 
 @keyframes animationHeart {
