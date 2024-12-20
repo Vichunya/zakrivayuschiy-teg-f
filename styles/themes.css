@@ -11,7 +11,7 @@
 
 :root.theme-light {
     --background-color: #fff;
-    --button-hover-light-color: rgb(0, 0, 0, 0.6);
+    --button-hover-color: rgb(0, 0, 0, 0.6);
     --border-color: #000000;
     --box-shadow-color: #000000;
     --text-color: #000000;
@@ -36,7 +36,7 @@
     --border-color: #00CC14;     
     --color: #00CC14;    
  
-    --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
+    --button-hover-color: rgb(0, 0, 0, 0.6);  /* ! */
     --text-color: #00CC14;
     --box-shadow-color: #00CC14;
     --repeating-gradient-color: #000 ;
@@ -63,7 +63,7 @@
         --border-color: #00CC14;     
         --color: #00CC14;    
      
-        --button-hover-light-color: rgb(0, 0, 0, 0.6);  /* ! */
+        --button-hover-color: rgb(0, 0, 0, 0.6);  /* ! */
         --text-color: #00CC14;
         --box-shadow-color: #00CC14;
         --repeating-gradient-color: #000 ;
@@ -86,7 +86,7 @@
 @media (prefers-color-scheme: light) {
     :root {
     --background-color: #fff;
-    --button-hover-light-color: rgb(0, 0, 0, 0.6);
+    --button-hover-color: rgb(0, 0, 0, 0.6);
     --border-color: #000000;
     --box-shadow-color: #000000;
     --text-color: #000000;

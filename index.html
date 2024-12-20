@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./styles/themes.css" />
   <meta name="color-scheme" content="light dark" />
   <link rel="icon" href="./svg/favicon (svgomg).svg" type="image/svg+xml">
-  <link sizes="180x180" rel="apple-touch-icon" href="…/apple-touch-icon-180x180.png"> <!-- какой href написать ? -->
+  <link sizes="180x180" rel="apple-touch-icon" href="./svg/favicon-_svgomg_.png">
 
   <script src="./scripts/set-theme.js"></script>
 </head>
@@ -434,6 +434,15 @@
 
     </section>
 
+    <div class="save_button_container">
+      <button class="button save_button" type="submit" onclick="window['dialog-id'].showModal()">
+        <svg class="floopy">
+          <use href="./svg/floppy.svg#floopy" />
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </div>
+
 
     <dialog class="dialog-window" aria-label="put floopy to continue" id="dialog-id">
       <div class="floopy_and_text">
@@ -448,15 +457,7 @@
 
   </main>
 
-  <footer class="footer">
-    <!-- <div class="footer_content"></div>  -->
-    <button class="button footer_button" type="submit" onclick="window['dialog-id'].showModal()">
-      <svg class="floopy">
-        <use href="./svg/floppy.svg#floopy" />
-      </svg>
-      <span class="button__text">Сохранить на память</span>
-    </button>
-  </footer>
+
 
   <script src="./scripts/like.js"></script>
 
