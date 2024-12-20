@@ -222,7 +222,7 @@
 }
 
 .button {
-  border: 2px solid var(--border-color);    /* у кнопки в футере  border: none; */
+  border: 2px solid var(--border-color);    
   background-color: var(--background-color);
 }
 
@@ -271,7 +271,7 @@
   opacity: 0;
 }
 
-.footer {
+.save_button_container {
   display: flex;
   justify-content: center;
   width: 335px;
@@ -285,7 +285,7 @@
   margin-bottom: 103px;
 }
 
-.footer_button {
+.save_button {
   display: flex;
   align-items: center;
   gap: 8px;
