@@ -21,7 +21,6 @@
     linear-gradient(var(--gradient-color-start) 0.01%, var(--gradient-color-end));
   background-attachment: fixed;
   /*чтобы градиент не двигался*/
-  outline: 1px solid red;
 }
 
 .header {
@@ -359,7 +358,7 @@
   }
 
   .main_picture {
-    width: 375px;
+    width: 371px;
   }
 
   .title {
