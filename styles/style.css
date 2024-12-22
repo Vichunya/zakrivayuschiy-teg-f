@@ -316,6 +316,7 @@
   flex-direction: column;
   gap: 30px;
   color: var(--color-modal-window);
+  background-color: var(--background-color-modal-window);
   padding: 30px;
 }
 
