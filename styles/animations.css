@@ -160,7 +160,7 @@
   background-color: black;
   transition: width 300ms, background-color 0.5s;
   position: absolute;
-  bottom: 2px;
+  bottom: -2px;
 }
 
 .theme-menu__button:focus-visible::after {

@@ -67,12 +67,18 @@
   text-transform: uppercase;
 }
 
+.theme-menu__button:hover {
+  cursor: pointer;
+  color: var(--button-disabled-color);
+}
+
 .theme-menu__button:focus {
   outline: none;
 }
 
 .theme-menu__button:focus-visible {
   border: none;
+  color: var(--button-disabled-color);
 }
 
 .theme-menu__button:disabled {
