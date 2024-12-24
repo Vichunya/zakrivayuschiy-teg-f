@@ -98,7 +98,7 @@
 
 .like-icon .contour {
   transition: fill 0.3s;
-  fill: #000; 
+  fill: var(--fill-contour-color); 
 } 
 
 
