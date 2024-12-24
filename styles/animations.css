@@ -152,3 +152,18 @@
   animation: menuButtons 0.5s ease-in-out infinite alternate;
 }
 
+.theme-menu__button::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 300ms, background-color 0.5s;
+  position: absolute;
+  bottom: 2px;
+}
+
+.theme-menu__button:focus-visible::after {
+  width: 100%;
+  background-color: var(--button-disabled-color);
+}
