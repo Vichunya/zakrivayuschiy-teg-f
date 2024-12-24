@@ -31,19 +31,20 @@
     --border-color-ok-button: #000;
     --font-weight: 700;
     --font-weight-text: 400;
-} 
+}
 
 :root.theme-dark {
-    --background-color: #000000; 
-    --border-color: #00CC14;     
-    --color: #00CC14;    
- 
-    --button-hover-color: rgb(0, 0, 0, 0.6);  /* ! */
+    --background-color: #000000;
+    --border-color: #00CC14;
+    --color: #00CC14;
+
+    --button-hover-color: rgb(0, 0, 0, 0.6);
+    /* ! */
     --text-color: #00CC14;
     --box-shadow-color: #00CC14;
-    --repeating-gradient-color: #000 ;
+    --repeating-gradient-color: #000;
     --gradient-color-start: #007f0c;
-    --gradient-color-end: #004306;    
+    --gradient-color-end: #004306;
     --menu-button-hover: rgb(0, 204, 20, 0.6);
     --button-disabled-color: rgb(0, 204, 20, 0.6);
     --button-text-color: #00CC14;
@@ -57,22 +58,23 @@
     --border-color-ok-button: #00cc14;
     --font-weight: 785;
     --font-weight-text: 465;
-    
+
 }
 
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #000000; 
-        --border-color: #00CC14;     
-        --color: #00CC14;    
-     
-        --button-hover-color: rgb(0, 0, 0, 0.6);  /* ! */
+        --background-color: #000000;
+        --border-color: #00CC14;
+        --color: #00CC14;
+
+        --button-hover-color: rgb(0, 0, 0, 0.6);
+        /* ! */
         --text-color: #00CC14;
         --box-shadow-color: #00CC14;
-        --repeating-gradient-color: #000 ;
+        --repeating-gradient-color: #000;
         --gradient-color-start: #007f0c;
-        --gradient-color-end: #004306;    
+        --gradient-color-end: #004306;
         --menu-button-hover: rgb(0, 204, 20, 0.6);
         --button-disabled-color: rgb(0, 204, 20, 0.6);
         --button-text-color: #00CC14;
@@ -86,33 +88,33 @@
         --border-color-ok-button: #00cc14;
         --font-weight: 785;
         --font-weight-text: 465;
-} 
     }
+}
 
 
 @media (prefers-color-scheme: light) {
     :root {
-    --background-color: #fff;
-    --button-hover-color: rgb(0, 0, 0, 0.6);
-    --border-color: #000000;
-    --box-shadow-color: #000000;
-    --text-color: #000000;
-    --repeating-gradient-color: #d3d3d3;
-    --gradient-color-start: #e7e7e7;
-    --gradient-color-end: #1a1a1a;
-    --menu-button-hover: rgb(0, 0, 0, 0.6);
-    --button-disabled-color: rgb(0, 0, 0, 0.6);
-    --button-text-color: #fff;
-    --button-background-color: #000;
-    --fill-contour-color: #000;
-    --fill-main-body-color: #fff;
-    --fill-core-color: #fff;
-    --background-color-modal-window: #fff;
-    --color-modal-window: #000;
-    --button-ok-background-color: #fff;
-    --border-color-ok-button: #000;
-    --font-weight: 700;
-    --font-weight-text: 400;
-    
+        --background-color: #fff;
+        --button-hover-color: rgb(0, 0, 0, 0.6);
+        --border-color: #000000;
+        --box-shadow-color: #000000;
+        --text-color: #000000;
+        --repeating-gradient-color: #d3d3d3;
+        --gradient-color-start: #e7e7e7;
+        --gradient-color-end: #1a1a1a;
+        --menu-button-hover: rgb(0, 0, 0, 0.6);
+        --button-disabled-color: rgb(0, 0, 0, 0.6);
+        --button-text-color: #fff;
+        --button-background-color: #000;
+        --fill-contour-color: #000;
+        --fill-main-body-color: #fff;
+        --fill-core-color: #fff;
+        --background-color-modal-window: #fff;
+        --color-modal-window: #000;
+        --button-ok-background-color: #fff;
+        --border-color-ok-button: #000;
+        --font-weight: 700;
+        --font-weight-text: 400;
+
     }
 }
