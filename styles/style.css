@@ -246,9 +246,19 @@
   outline: none;
 }
 
+/*
+.button:focus {
+  outline: none;
+}
+*/
+
 .card__like-button:focus-visible {
   box-shadow: 2px 2px var(--box-shadow-color);
-}
+} 
+
+/* .button:focus-visible {
+  box-shadow: 2px 2px var(--box-shadow-color);
+} */
 
 .card__icon-button:focus {
   /*контейнер с сердцем*/
