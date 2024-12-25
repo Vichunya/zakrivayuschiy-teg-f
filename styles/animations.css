@@ -42,25 +42,30 @@
 
 
 .like-icon:hover .main-body {
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #000000;
   transition-delay: 0.05s;
 }
 
-.main-body {
+.main-body {   /* основное тело сердца*/
   fill: var(--fill-main-body-color);
-  transition: fill 0.3s ease;
+  transition: fill 0.3s linear;
 }
 
 .like-icon:hover .core {
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #000000;
 }
 
-.core {
+.core {   /* сердцевина */
   fill: var(--fill-core-color);
-  transition: fill 0.3s ease;
-  transition-delay: 0.03s;
+  transition: fill 0.3s linear;
+  transition-delay: 0.3s;
+}
+
+.contour {  
+  fill: var(--fill-contour-color);
+  transition: fill 0.1s linear;
 }
 
 .like-icon:active .main-body {
@@ -70,27 +75,27 @@
 }
 
 .like-icon:active .core {
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #FF0000;
 }
 
 .like-icon.is-liked .core {
   /*как при Active указано в шагах*/
   /* Клик */
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #FF0000;
 }
 
 .like-icon.is-liked .main-body {
   /*как при Active указано в шагах*/
   /* Клик */
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #FF0000;
   transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .contour {
-  transition: fill 0.3s;
+  transition: fill 0.3s linear;
   fill: #FF0000;
   transition-delay: 0.06s;
   /* контур перекрашивается с задержкой 0.06s*/

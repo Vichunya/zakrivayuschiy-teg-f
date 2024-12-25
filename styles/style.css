@@ -232,6 +232,7 @@
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   position: relative;
+  /* text-shadow: 2px 2px 0 black;  */
 }
 
 .card__like-button {
