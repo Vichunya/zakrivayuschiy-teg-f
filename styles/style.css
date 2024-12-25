@@ -112,7 +112,7 @@
 
 .main_picture {
   width: 696px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
