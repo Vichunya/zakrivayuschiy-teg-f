@@ -360,23 +360,3 @@
   text-transform: uppercase;
 }
 
-
-/* @media (width <=375px) {
-
-  .header {
-    width: 375px;
-  }
-
-  .main {
-    width: 375px;
-  }
-
-  .main_picture {
-    width: 371px;
-  }
-
-  .title {
-    font-size: 49px;
-  }
-
-} */
