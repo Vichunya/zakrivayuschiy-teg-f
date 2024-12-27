@@ -246,23 +246,14 @@
   font-size: 14px;
 }
 
-.card__like-button:focus {
-  outline: none;
-}
-
-/*
 .button:focus {
   outline: none;
 }
-*/
 
-.card__like-button:focus-visible {
+.button:focus-visible {
   box-shadow: 2px 2px var(--box-shadow-color);
-} 
-
-/* .button:focus-visible {
-  box-shadow: 2px 2px var(--box-shadow-color);
-} */
+  transition: box-shadow 0.3s linear;
+}
 
 .card__icon-button:focus {
   /*контейнер с сердцем*/

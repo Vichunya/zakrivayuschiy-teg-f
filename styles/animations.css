@@ -47,7 +47,8 @@
   transition-delay: 0.05s;
 }
 
-.main-body {   /* основное тело сердца*/
+.main-body {
+  /* основное тело сердца*/
   fill: var(--fill-main-body-color);
   transition: fill 0.3s linear;
 }
@@ -57,13 +58,14 @@
   fill: #000000;
 }
 
-.core {   /* сердцевина */
+.core {
+  /* сердцевина */
   fill: var(--fill-core-color);
   transition: fill 0.3s linear;
   transition-delay: 0.3s;
 }
 
-.contour {  
+.contour {
   fill: var(--fill-contour-color);
   transition: fill 0.1s linear;
 }
