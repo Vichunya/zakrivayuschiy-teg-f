@@ -150,8 +150,15 @@
   font-size: 18px;
   line-height: 21.78px;
   padding-left: 10px;
+  height: 31px;
   padding-bottom: 2px;
   font-variation-settings: 'wght' var(--font-weight);
+  align-self: center;
+}
+
+.card_title {
+  display: flex;
+  align-items: center;
   border-bottom: 2px solid var(--border-color);
 }
 
