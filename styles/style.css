@@ -150,16 +150,15 @@
   font-size: 18px;
   line-height: 21.78px;
   padding-left: 10px;
-  height: 31px;
   padding-bottom: 2px;
   font-variation-settings: 'wght' var(--font-weight);
-  align-self: center;
 }
 
 .card_title {
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--border-color);
+  min-height: 31px;
 }
 
 .card {
@@ -301,7 +300,6 @@
   font-size: 14px;
   justify-self: center;
   /*селф смотрит что у родителя body, выравнивает самого себя относительно родителя*/
-  margin-top: 50px;
   background-color: var(--background-color);
   margin-bottom: 103px;
 }
@@ -370,3 +368,9 @@
   text-transform: uppercase;
 }
 
+@media (width <= 375px) {
+  .save_button_container {
+    flex-direction: row;
+    margin-top: 2px;
+    }
+}
