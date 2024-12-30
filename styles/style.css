@@ -295,7 +295,6 @@
 
 .save_button_container {
   display: flex;
-  height: 51px;
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   justify-self: center;
@@ -311,6 +310,8 @@
   gap: 8px;
   color: var(--text-color);
   width: 335px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .floopy {
@@ -369,8 +370,11 @@
 }
 
 @media (width <= 375px) {
-  .save_button_container {
-    flex-direction: row;
-    margin-top: 2px;
+  .save_button {
+    flex-direction: column;
     }
+
+  .save_button_container {
+    margin-top: 2px;
+  }
 }
