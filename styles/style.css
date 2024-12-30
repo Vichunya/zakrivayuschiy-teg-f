@@ -381,4 +381,12 @@
   .save_button_container {
     margin-top: 2px;
   }
+
+  .header {
+    padding-top: 120px;
+  }
+
+  .header__theme-menu {
+    padding-left: 20px;
+  }
 }
