@@ -158,7 +158,8 @@
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--border-color);
-  min-height: 31px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .card {
@@ -245,7 +246,7 @@
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   position: relative;
-  /* text-shadow: 2px 2px 0 black;  */
+  transition: box-shadow 0.3s linear;
 }
 
 .card__like-button {
@@ -262,7 +263,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--box-shadow-color);
-  transition: box-shadow 0.3s linear;
 }
 
 .card__icon-button:focus {
