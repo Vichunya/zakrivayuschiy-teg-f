@@ -246,7 +246,7 @@
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   position: relative;
-  transition: box-shadow 0.3s linear;
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button {
