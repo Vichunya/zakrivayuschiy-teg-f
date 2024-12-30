@@ -373,10 +373,10 @@
   text-transform: uppercase;
 }
 
-@media (width <= 375px) {
+@media (width <=375px) {
   .save_button {
     flex-direction: column;
-    }
+  }
 
   .save_button_container {
     margin-top: 2px;
@@ -388,5 +388,10 @@
 
   .header__theme-menu {
     padding-left: 20px;
+  }
+
+  .floopy_save_button {
+    width: 28px;
+    height: 28px;
   }
 }
