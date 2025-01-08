@@ -247,6 +247,7 @@
 }
 
 .button {
+  /* 3 кнопки: сохранить, ок, лайк*/
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   position: relative;

@@ -31,6 +31,7 @@
     --border-color-ok-button: #000;
     --font-weight: 700;
     --font-weight-text: 400;
+    --heart-hover-color: #000;
 }
 
 :root.theme-dark {
@@ -58,6 +59,7 @@
     --border-color-ok-button: #00cc14;
     --font-weight: 785;
     --font-weight-text: 465;
+    --heart-hover-color: #00cc14;
 
 }
 
@@ -88,6 +90,7 @@
         --border-color-ok-button: #00cc14;
         --font-weight: 785;
         --font-weight-text: 465;
+        --heart-hover-color: #00cc14;
     }
 }
 
@@ -115,6 +118,6 @@
         --border-color-ok-button: #000;
         --font-weight: 700;
         --font-weight-text: 400;
-
+        --heart-hover-color: #000;
     }
 }
