@@ -156,6 +156,7 @@
   line-height: 21.78px;
   padding-left: 10px;
   padding-bottom: 2px;
+  padding-right: 10px;
   font-variation-settings: 'wght' var(--font-weight);
 }
 
