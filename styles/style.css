@@ -70,12 +70,12 @@
   border: none;
   position: relative;
   text-transform: uppercase;
+  transition: color 300ms;
 }
 
 .theme-menu__button:hover {
   cursor: pointer;
   color: var(--button-disabled-color);
-  transition: color 300ms;
 }
 
 .theme-menu__button:focus {
@@ -118,6 +118,7 @@
 
 .main_picture {
   width: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
+  height: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
   object-fit: cover;
   object-position: center;
 }
@@ -213,7 +214,7 @@
   margin-right: 25px;
   font-size: 18px;
   line-height: 21px;
-  font-variation-settings: 'wght' var(----font-weight-text);
+  font-variation-settings: 'wght' var(--font-weight-text);
 }
 
 .button_container {
